@@ -9,8 +9,23 @@ src: url(fonts/HelveticaNeue.ttf);
 *{margin:0; padding:0;}
 /*html{ background: #6eb1db url(../images/main-bg.png) repeat-x center top;}*/
 body{ font-family: Helvetica, arial; font-size: 12px; }
-.wrapper{width:100%; background:#ffffff url(../images/main-bg-glow.png) repeat; left:0;
-       right:0; bottom:0; top:0; min-width:100%; min-height:100%; display:block;}
+/*.wrapper{width:100%; background:#ffffff url(../images/main-bg-glow.png) repeat; left:0;
+       right:0; bottom:0; top:0; min-width:100%; min-height:100%; display:block; position:relative; z-index: -2000;
+   background: url(../images/main-bg-glow.png),        
+        url(../images/CF-block-pattern.png);
+  background-repeat: no-repeat, no-repeat, ;
+  }*/
+
+  /*.wrapper{width:100%; min-width:100%; min-height:100%; 
+   background: url(../images/CF-block-pattern.png),        
+        url(../images/main-bg-glow.png);
+  background-repeat: no-repeat, no-repeat ;
+background-position:bottom, top ;}*/
+
+.wrapper{width:100%; min-width:100%; min-height:100%; 
+   background: url(../images/CF-block-pattern.png) center 1210px no-repeat, 
+   url(../images/main-bg-glow.png) top no-repeat ;}
+
 
 h1, h2{font-family:helvetica, arial; color: #ffffff;  font-weight: normal; 
 text-shadow: -2px -2px 2px rgba(0, 0, 0, 0.9);}
@@ -35,11 +50,13 @@ p{font-size: 12px; color: #666666; }
 .mar-bt1{margin-bottom:15px;}
 .mar-bt2{margin-bottom:20px;}
 .mar-bt3{margin-bottom:25px;}
+.mar-bt4{margin-bottom:40px;}
 .mar-tp0{margin-top:10px;}
 .mar-tp1{margin-top:15px;}
 .mar-tp11{margin-top:19px;}
 .mar-tp2{margin-top:20px;}
 .mar-tp3{margin-top:30px;}
+.mar-tp4{margin-top:40px;}
 .mar-rt1{margin-right:15px;}
 .mar-rt2{margin-right:20px;}
 .mar-lt1{margin-left:15px;}
@@ -143,6 +160,9 @@ border-bottom: 1px solid #cccccc; -webkit-border-radius-top-left:5px; -ms-border
 .events .upeventslist { list-style-type:none; float:left; padding:10px;}
 .readmore{text-decoration:none; color:#0078ac; font-size: 14px;}
 .dark-txt{color:#000000;}
+
+/*.CF-block-pattern{width:790px; height:412px; margin: 0 auto; background: url(../images/CF-block-pattern.png) no-repeat center; position:relative; z-index: -1000; }*/
+/*.CF-block-pattern{background: url(../images/CF-block-pattern.png) no-repeat 40px center; position: relative; z-index: -100;}*/
 .footer{width:100%; height:350px; background-color:#2e2f34;
 background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2e2f34), to(#1e1f23));
 background: -moz-linear-gradient(top, #2e2f34, #1e1f23); }

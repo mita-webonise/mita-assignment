@@ -9,28 +9,27 @@
 	<div class="header"><!--Header-->
 	<div class="container upNav">
 		<ul class="fl-rt">
-		<li><a href="#">FAQ'S</a></li>
-		<li><span class="seprator">&nbsp;</span></li>
+		<li class="seprator"><a href="#">FAQ'S</a></li>
 		<li><a href="#">LOGIN</a></li>	
 		</ul>
-		<input type="text" name="search" placeholder="Search" class="search fl-rt" />
+		<div class="searchbtn fl-rt">
+			<input type="text" name="search" placeholder="Search" class="search" />
+			<button class="gobtn fl-rt"></button>
+		</div>
 	</div>
 	</div><!--Header ends-->
 	<div class="container ht1"><!--logo-->
 		<a href="index.html"><div class="logo fl-lt mar-tp1 mar-bt1">
 		</div></a>
 	</div><!--logo ends-->
+	
 	<div class="container navigation mar-bt2"><!--navigation-->
 		<ul class="fl-lt">
-		<li><a href="#" class="hm-mar"><img src="images/navigation/home-icon.png" width="28" height="27" alt="" /></a></li>
-		<li><span class="seprator">&nbsp;</span></li>
-		<li><a href="#" class="list-mar"><img src="images/navigation/abt-nav.png" width="22" height="19" alt="" /><span>ABOUT</span></a></li>
-		<li><span class="seprator">&nbsp;</span></li>
-		<li><a href="#" class="list-mar"><img src="images/navigation/chapters-nav.png" width="17" height="19" alt="" /><span>CHAPTERS</span></a></li>
-		<li><span class="seprator">&nbsp;</span></li>
-		<li><a href="#" class="list-mar"><img src="images/navigation/events-nav.png" width="17" height="19" alt="" /><span>EVENTS</span></a></li>
-		<li><span class="seprator">&nbsp;</span></li>
-		<li><a href="#" class="list-mar"><img src="images/navigation/wiki-nav.png" width="18" height="19" alt="" /><span>WIKI</a></li>
+		<li class="listTabfirst hometab"><a href="#" class="listTabfirst"></a></li>
+		<li class="listTabmiddle abouttab"><a href="#" class="listTabmiddle">ABOUT</a></li>
+		<li class="listTabmiddle chapterstab"><a href="#" class="listTabmiddle">CHAPTERS</span></a></li>
+		<li class="listTabmiddle eventstsb"><a href="#" class="listTabmiddle">EVENTS</span></a></li>
+		<li class="listTablast wikitab"><a href="#" class="listTablast">WIKI</a></li>
 		</ul>
 	</div><!--navigation ends-->
 	<div id="slider" class="container banner mar-bt2"><!--banner-->
@@ -38,7 +37,7 @@
 			Knowledge Sharing for<br/>
 			Developers</h1><br/>
 		<h2 class="fl-lt clearfix">Your key of an awesome knowledge cloud</h1>
-		<button class="fl-lt clearfix btn" onclick="location.href='http://www.google.com';">SIGN UP</button>
+		<a href="#" class="fl-lt clearfix btn">SIGN UP</a>
 		
 			<ul class="slider-paging">
 				<li class="pre">&nbsp;</li>
@@ -62,7 +61,7 @@
 					<p class="mar-bt00">November 08, 2012</p>
 					<h3 class="mar-bt00">Preserving Cloud Application</h3>
 					<p class="mar-bt00">We are excited to announce a new version of Micro...</p>
-					<button class="fl-lt clearfix learn-btn" onclick="location.href='http://www.google.com';">Learn More</button>
+					<a href="#" class="fl-lt clearfix learn-btn">Learn More</a>
 				</section><!--announcement one ends-->
 				<div class="clearfix mar-bt3"></div>
 			    <section class="fl-lt "><!--announcement two-->
@@ -72,7 +71,7 @@
 					<p class="mar-bt00">November 08, 2012</p>
 					<h3 class="mar-bt00">Preserving Cloud Application</h3>
 					<p class="mar-bt00">We are excited to announce a new version of Micro...</p>
-					<button class="fl-lt clearfix learn-btn" onclick="location.href='http://www.google.com';">Learn More</button>
+					<a href="#" class="fl-lt clearfix learn-btn">Learn More</a>
 				</section><!--announcement two ends-->
 			    <div class="clearfix mar-bt3"></div>
 				<section class="fl-lt "><!--announcement three-->
@@ -82,7 +81,7 @@
 					<p class="mar-bt00">November 08, 2012</p>
 					<h3 class="mar-bt00">Preserving Cloud Application</h3>
 					<p class="mar-bt00">We are excited to announce a new version of Micro...</p>
-					<button class="fl-lt clearfix learn-btn" onclick="location.href='http://www.google.com';">Learn More</button>
+					<a href="#" class="fl-lt clearfix learn-btn">Learn More</a>
 				</section><!--announcement three ends-->
 			</div>
 		</div><!--Main left ends-->
@@ -93,13 +92,13 @@
 			</div>
 			<div class="citySearch pad-tp2">
 				<input type="text" name="searchcity" placeholder="Search" class="search_city" />
-				<div class="search_city-ico fl-rt"></div>
+				<button class="search_city-ico fl-rt"></button>
 
 				<div class="main-map mar-tp0 mar-bt2"></div>
 
 				<div class="txt-ht">
 					<span class="txt">Couldn't find a chapter in your city?</span>
-					<button class="fl-rt clearfix btn" onclick="location.href='http://www.google.com';">CREATE A CHAPTER</button>
+					<a href="#" class="fl-rt clearfix btn">CREATE A CHAPTER</a>
 				</div>
 			</div>
 		</div><!--Main right ends-->

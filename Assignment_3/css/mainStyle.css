@@ -7,20 +7,7 @@ src: url(fonts/HelveticaNeue.ttf);
 }
 
 *{margin:0; padding:0;}
-/*html{ background: #6eb1db url(../images/main-bg.png) repeat-x center top;}*/
 body{ font-family: Helvetica, arial; font-size: 12px; }
-/*.wrapper{width:100%; background:#ffffff url(../images/main-bg-glow.png) repeat; left:0;
-       right:0; bottom:0; top:0; min-width:100%; min-height:100%; display:block; position:relative; z-index: -2000;
-   background: url(../images/main-bg-glow.png),        
-        url(../images/CF-block-pattern.png);
-  background-repeat: no-repeat, no-repeat, ;
-  }*/
-
-  /*.wrapper{width:100%; min-width:100%; min-height:100%; 
-   background: url(../images/CF-block-pattern.png),        
-        url(../images/main-bg-glow.png);
-  background-repeat: no-repeat, no-repeat ;
-background-position:bottom, top ;}*/
 
 .wrapper{width:100%; min-width:100%; min-height:100%; 
    background: url(../images/CF-block-pattern.png) center 1210px no-repeat, 
@@ -33,16 +20,15 @@ text-shadow: -2px -2px 2px rgba(0, 0, 0, 0.9);}
 h1{font-size:44px;  margin: 44px 44px 30px; }
 h2{font-size:22px; margin:0 0 25px 44px;}
 h3{font-size:17px; color:#333333;}
-/*h4{font-size:13px; color:#333333;}*/
 h4{font-size:16px; color:#0078ac; font-weight:normal;}
 h5{font-size:16px; color:#afafb0; font-weight:normal;}
 
 p{font-size: 12px; color: #666666; }
-
+a{text-decoration: none; color: #333333;}
 .container{width:960px; margin: 0 auto;}
 .fl-lt{float:left;}
 .fl-rt{float:right;}
-.seprator{width:4px; height: 41px; background: url(../images/seprator.png) no-repeat;}
+.seprator{background: url(../images/seprator.png) no-repeat right center;}
 .clearfix{clear:both;}
 
 .mar-bt00{margin-bottom:5px;}
@@ -75,11 +61,13 @@ p{font-size: 12px; color: #666666; }
 
 .header{ width: 100%; height: 40px; background: url(../images/up-nav-bg.png) repeat-x;}
 .header .upNav{padding-top:3px;}
-.header .upNav ul{  height: 40px; line-height: 30px;}
-.header .upNav ul li{ list-style-type: none; margin: 0 6px; float: left; font-weight: bold; height: 40px;}
-.header .upNav ul li a{ text-decoration: none; margin: 0 6px; color: #ffffff;}
+.header .upNav ul{height: 40px; line-height: 40px;}
+.header .upNav ul li{width: 68px; list-style-type: none; float: left; font-weight: bold; height: 40px; text-align: center;}
+.header .upNav ul li a{width: 68px; text-decoration: none; color: #ffffff;}
 .header .upNav ul li a:hover{ text-decoration: underline; margin: 0 6px; color: #ffffff;}
-.header .upNav .search{width: 220px; height: 25px; color:bababa; background:#1a2126 url(../images/search-icon.png) no-repeat right center;  border:none; border-radius: 4px; -webkit-border-radius:4px; -ms-border-radius:4px; -mz-border-radius:4px; -o-border-radius:4px; margin-top: 5px; margin-right: 8px; padding: 3px;}
+.header .upNav .searchbtn{width: 220px; height: 25px;}
+.header .upNav .search{width: 220px; height: 25px; color:bababa; background:#1a2126; border:none; border-radius: 4px; -webkit-border-radius:4px; -ms-border-radius:4px; -mz-border-radius:4px; -o-border-radius:4px; margin-top: 5px; margin-right: 8px; padding: 3px; position: relative;}
+.header .upnav .gobtn{width:20px; height:25px; background:url(../images/search-icon.png) no-repeat right center; border: none; cursor: pointer; position: relative; top:-25px; right:5px; z-index: 1000; }
 
 .logo{width:432px; height: 71px; background: url(../images/logo.png) no-repeat;}
 
@@ -93,14 +81,19 @@ border-radius:5px;
 -o-border-radius:5px;
 -ms-border-radius:5px;}
 
-.navigation ul{ height: 50px;}
-.navigation ul li{list-style-type: none; float: left; font-family:HelveticaNeue, arial; font-size: 14px; color: #333333; padding:13px 0;}
-.about{background: ../images/abt-nav.png no-repeat left center ;}
-.navigation ul li a{text-decoration:none; color: #333333; padding:13px 0;}
-.navigation ul li a:hover{text-decoration:none; color: #333333; border-bottom: 4px solid #0096d6; padding:13px 0;}
-.navigation .list-mar{margin: 0 70px;}
-.navigation .hm-mar{margin: 0 27px;}
-.img-mar{ margin-top:-5px;}
+.navigation ul{}
+.navigation ul li{height:54px; list-style-type:none; float:left; font-family:HelveticaNeue, arial; font-size:14px; color:#333333; }
+.navigation ul li a{height:50px; line-height:51px; text-align: center; display:block; text-decoration:none; color:#333333;}
+.navigation ul li a:hover{color: #0096d6; border-bottom: 3px solid #0096d6; }
+.navigation ul li .listTabfirst{width:78px;}
+.navigation ul li .listTabmiddle{width:218px;}
+.navigation ul li .listTablast{width:220px;}
+.navigation ul li .listTabfirst, .navigation ul li .listTabmiddle{ background: url(../images/seprator.png) no-repeat right center;}
+.hometab{background: url(../images/navigation/home-icon.png)no-repeat 30px center ; }
+.abouttab{background: url(../images/navigation/abt-nav.png) no-repeat 65px center ;}
+.chapterstab{background: url(../images/navigation/chapters-nav.png) no-repeat 55px center ;}
+.eventstsb{background:url( ../images/navigation/events-nav.png) no-repeat 65px center ;}
+.wikitab{background: url(../images/navigation/wiki-nav.png) no-repeat 80px center ; }
 
 .banner{height:349px; background: #031f37 url(../images/banner/ban-2.png) no-repeat right center; border-radius:5px; -webkit-border-radius:5px; -ms-border-radius:5px; -mz-border-radius:5px; -o-border-radius:5px;}
 .btn{width:150px; height:36px; background-color: #ff6223;
@@ -112,7 +105,7 @@ border-radius:4px;
 -o-border-radius:4px;
 -ms-border-radius:4px; 
 position:relative;
-/*padding: 7px 25px;*/ font-size: 11px; color: #ffffff; font-weight: bold; margin:0 0 10px 44px; border:none; cursor:pointer; text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.7);}
+font-size: 11px; color: #ffffff; font-weight: bold; margin:0 0 10px 44px; border:none; cursor:pointer; text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.7); text-align: center; line-height:36px;}
 
 .learn-btn{padding:3px 10px; font-size:12px; font-weight:500; background-color: #cecece;
 background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#cecece));
@@ -120,7 +113,7 @@ background: -moz-linear-gradient(top, #ffffff, #cecece); border: 1px solid #b8b8
 border-radius:5px; -webkit-border-radius:5px; -ms-border-radius:5px; -mz-border-radius:5px; 
 -o-border-radius:5px; cursor:pointer; text-shadow:2px 2px 0px rgba(255, 255, 255, 0.8);}
 
-.slider-paging{width:400px; height:40px; position:relative; left: 620px; bottom: 0px; z-index: 9999;}
+.slider-paging{width:400px; height:40px; position:relative; left: 590px; bottom: 0px; z-index: 9999;}
 .slider-paging li{ list-style-type: none; float: left; }
 .pre{width:12px; height:40px; background: url(../images/banner/previous.png) no-repeat left center;}
 .next{width:12px; height:40px; background: url(../images/banner/next.png) no-repeat right center;}
@@ -130,8 +123,8 @@ border-radius:5px; -webkit-border-radius:5px; -ms-border-radius:5px; -mz-border-
 
 
 .main{height:auto;}
-.main .main-LT{width:318; height:545px;}/*288px padding:0 15px 15px;*/
-.main .main-RT{width:618; height:545px; }/*578px padding:0 20px 20px;*/
+.main .main-LT{width:318; height:545px;}
+.main .main-RT{width:618; height:545px; }
 .main .main-LT, .main .main-RT{background:#ffffff; border: 1px solid #cccccc;  border-radius:5px; -webkit-border-radius:5px; -ms-border-radius:5px; -mz-border-radius:5px; -o-border-radius:5px; }
 
 .main .main-LT img{float:left; margin-right:15px;}
@@ -148,7 +141,7 @@ border-bottom: 1px solid #cccccc; -webkit-border-radius-top-left:5px; -ms-border
 .main .cityMap{width:65px; height:43px; background:url(../images/city-map/maplocation.png) no-repeat; opacity:0.3}
 .main .citySearch{width:568px; height: 100%; margin:0 auto;}
 .main .citySearch .search_city{width: 100%; height: 25px; color:bababa; background:#ffffff url(../images/city-map/search-map.png) no-repeat 3px center;  border:1px solid #7faac5; border-radius: 4px; -webkit-border-radius:4px; -ms-border-radius:4px; -mz-border-radius:4px; -o-border-radius:4px; margin-top: 5px; margin-right: 8px; padding:3px 15px 3px; position: relative;}
-.main .citySearch .search_city-ico{width:13px; height:13px; background:#ffffff url(../images/city-map/search-city-icon.png) no-repeat right center; position: relative; top:-19px; right:5px; z-index: 1000;}
+.main .citySearch .search_city-ico{width:13px; height:13px; background:#ffffff url(../images/city-map/search-city-icon.png) no-repeat right center; position: relative; top:-19px; right:5px; z-index: 1000; border:none; cursor:pointer;}
 .main .citySearch .main-map{width:568px; height:369px; background:url(../images/city-map/map-bg.jpg) no-repeat; position:relative;}
 .main .txt{font-size:16px; color:#666666;}
 

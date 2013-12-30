@@ -173,7 +173,7 @@ background: -moz-linear-gradient(top, #2e2f34, #1e1f23); }
 .footer ul li a{text-decoration:none; font-size:14px; color:#0096d6; margin-right:7px;}
 .footer ul li a:hover{text-decoration:underline; font-size:14px; color:#0096d6; margin-right:7px;}
 
-.footer .social{width:896px; height:67px; margin:0 auto; background:url(../images/footer/ftr-social-bg.png) no-repeat ; padding-left: 350px; padding-top: 13px;   margin-left: 50px;}
+.footer .social{width:896px; height:74px; margin:0 auto; background:url(../images/footer/ftr-social-bg.png) no-repeat ; padding-left: 350px; padding-top: 15px;   margin-left: 50px;}
 .footer .social li{ list-style-type:none; margin-right:10px;}
 
 .downmenu{width:550px; height: 25px; line-height: 25px; padding-left: 290px;}

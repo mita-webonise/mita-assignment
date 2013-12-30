@@ -84,10 +84,12 @@ border-radius:5px;
 .navigation ul{}
 .navigation ul li{height:54px; list-style-type:none; float:left; font-family:HelveticaNeue, arial; font-size:14px; color:#333333; }
 .navigation ul li a{height:50px; line-height:51px; text-align: center; display:block; text-decoration:none; color:#333333;}
-.navigation ul li a:hover{color: #0096d6; border-bottom: 3px solid #0096d6; }
+.navigation ul li a:hover{color: #0096d6; border-bottom: 3px solid #0096d6;}
+.navigation ul li:first-child a:hover{border-bottom-left-radius: 5px; }
+.navigation ul li:last-child a:hover{border-bottom-right-radius: 5px; }
 .navigation ul li .listTabfirst{width:78px;}
 .navigation ul li .listTabmiddle{width:218px;}
-.navigation ul li .listTablast{width:220px;}
+.navigation ul li .listTablast{width:228px;}
 .navigation ul li .listTabfirst, .navigation ul li .listTabmiddle{ background: url(../images/seprator.png) no-repeat right center;}
 .hometab{background: url(../images/navigation/home-icon.png)no-repeat 30px center ; }
 .abouttab{background: url(../images/navigation/abt-nav.png) no-repeat 65px center ;}

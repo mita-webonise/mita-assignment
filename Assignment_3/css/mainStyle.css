@@ -10,7 +10,7 @@ src: url(fonts/HelveticaNeue.ttf);
 body{ font-family: Helvetica, arial; font-size: 12px; }
 
 .wrapper{width:100%; min-width:100%; min-height:100%; 
-   background: url(../images/CF-block-pattern.png) center 1210px no-repeat, 
+   background: url(../images/CF-block-pattern.png) center 1220px no-repeat, 
    url(../images/main-bg-glow.png) top no-repeat ;}
 
 

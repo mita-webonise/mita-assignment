@@ -348,6 +348,7 @@ a{
 	height:43px; 
 	line-height:20px; 
 	margin: 0 auto;
+	margin-bottom: 25px;
  	background-color:#eeeeee;
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#eeeeee));
 	background: -moz-linear-gradient(top, #ffffff, #eeeeee);
@@ -483,7 +484,7 @@ p, .mediumDarkTxt{
 /*.CF-block-pattern{background: url(../images/CF-block-pattern.png) no-repeat 40px center; position: relative; z-index: -100;}*/
 .footer{
 	width:100%; 
-	height:350px; 
+	/*height:350px;*/
 	background-color:#2e2f34;
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2e2f34), to(#1e1f23));
 	background: -moz-linear-gradient(top, #2e2f34, #1e1f23); }

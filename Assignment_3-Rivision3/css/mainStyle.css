@@ -32,7 +32,7 @@ h3{	font-size:16px;
 h4{font-size:16px; 
 	color:#0078ac; 
 	font-weight:normal;}
-	
+
 h5{	font-size:16px; 
 	color:#afafb0; 
 	font-weight:normal;}
@@ -44,6 +44,7 @@ img{border:none;}
 
 .clear{clear:both;}
 .seprator{background: url(../images/seprator.png) no-repeat right center;}
+.greyTxt{font-size:13px; color: #666666;}
 
 .header{}
 
@@ -237,7 +238,7 @@ img{border:none;}
 	-mz-border-radius:5px; 
 	-o-border-radius:5px; 
 	cursor:pointer; 
-	text-shadow:2px 2px 0px rgba(255, 255, 255, 0.8);}
+	text-shadow:1px 1px 0px rgba(255, 255, 255, 0.8);}
 
 .sliderPaging{
 	width:150px; 
@@ -355,6 +356,8 @@ img{border:none;}
 .main .announcements ul{}
 
 .main .announcements ul li{list-style-type: none; margin-bottom: 30px;}
+
+.main .announcements .announcementDate{font-size: 12px; color: #666666; text-shadow:2px 2px 0px rgba(255, 255, 255, 1);}
 
 .main .announcements h3{margin-bottom:7px;}
 

@@ -117,14 +117,14 @@ img{border:none;}
 	z-index:1000;
 	float: right; }
 
-#logo{width: 960px; margin: 0 auto; padding-left: 10px;}
+#logo{width: 955px; margin: 0 auto; padding-left: 5px; margin-bottom: 25px;}
 
 .logo{
-	width:430px; 
+	width:435px; 
 	height:70px; 
 	background: url(../images/logo.png) no-repeat;
 	display: block;
-	margin-bottom: 25px;}
+	}
 
 .navigation ul{ 
 	width:960px;

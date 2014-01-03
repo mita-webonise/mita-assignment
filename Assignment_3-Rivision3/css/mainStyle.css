@@ -8,12 +8,14 @@ src: url(fonts/HelveticaNeue.ttf);
 
 *{
 	margin:0; 
-	padding:0;}
+	padding:0;
+	}
 
 body{ 
 	font-family:helvetica, arial; 
 	font-size:12px;
-	background:#e8eaf5;}
+	background:#e8eaf5; margin:0; 
+	padding:0;}
 
 .wrapper{
 	width:100%; 
@@ -115,12 +117,13 @@ img{border:none;}
 	z-index:1000;
 	float: right; }
 
+#logo{width: 960px; margin: 0 auto; padding-left: 10px;}
+
 .logo{
-	width:960px; 
+	width:430px; 
 	height:70px; 
 	background: url(../images/logo.png) no-repeat;
 	display: block;
-	margin: 0 auto;
 	margin-bottom: 25px;}
 
 .navigation ul{ 
@@ -353,7 +356,7 @@ img{border:none;}
 
 .main .announcements{ margin: 0 20px;  }
 
-.main .announcements ul{}
+.main .announcements ul{float: left;}
 
 .main .announcements ul li{list-style-type: none; margin-bottom: 30px;}
 
@@ -570,6 +573,9 @@ img{border:none;}
 	padding-left:350px; 
 	padding-top:15px;   
 	margin-left:50px;}
+
+.footer .social ul{ 
+	height:45px;}
 
 .footer .social li{ 
 	list-style-type:none; 

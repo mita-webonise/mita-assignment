@@ -32,7 +32,7 @@ a{text-decoration: none; color: #333333;}
 
 #ourTeam{ background-color: #dddddd; padding: 51px 0 39px 0;}
 
-#footer{ background-color: #353535; padding: 19px 0 21px 0;}
+#footer{ background-color: #353535; padding: 19px 0 19px 0;}
 
 .container{
 	width:940px;
@@ -144,15 +144,32 @@ a{text-decoration: none; color: #333333;}
 	padding-top: 15px;
 	background: url(../images/orangeBtnBg.png) repeat-x;}
 
-.translationBtnContainer span{line-height: 48px; display:block; float: left; font-size:16px; font-weight: bold; color: #666666; margin: 0 15px;}
+.translationBtnContainer span{
+	line-height: 48px; 
+	display:block; 
+	float: left; 
+	font-size:16px; 
+	font-weight: bold; 
+	color: #666666; 
+	margin: 0 15px;}
 
 #ourServices .ourServicesList{ height: 310px; }
 
 #ourServices .ourServicesList ul{}
 
-#ourServices .ourServicesList ul li{width: 200px; height: 290px; float: left; list-style-type: none; padding: 10px;}
+#ourServices .ourServicesList ul li{
+	width: 200px; 
+	height: 290px; 
+	float: left; 
+	list-style-type: none; 
+	padding: 10px;}
 
-#ourServices .ourServicesList ul li .imgWrapper{width: 161px; height: 161px; background: url(../images/BlackBg.png) no-repeat; margin: 0 auto; margin-bottom: 10px; }
+#ourServices .ourServicesList ul li .imgWrapper{
+	width: 161px; 
+	height: 161px; 
+	background: url(../images/BlackBg.png) no-repeat; 
+	margin: 0 auto; 
+	margin-bottom: 10px; }
 
 #ourServices .ourServicesList ul li .imgWrapper .engageImg{width: 161px; height: 161px; background: url(../images/img1-Engage.png) no-repeat center center;}
 
@@ -174,7 +191,10 @@ a{text-decoration: none; color: #333333;}
 
 #ourServices .ourServicesList ul li .hrLine{width: 220px; background: url(../images/borderBg.png) repeat-x ; border:0; margin-bottom: 15px;}
 
-#ourServices .ourServicesList ul li p, #ourServices .ourServicesList ul li a{font-family: Helvetica, arial; font-size: 12px; text-shadow:0px 1px 1px rgba(0, 0, 0, 0.6); }
+#ourServices .ourServicesList ul li p, #ourServices .ourServicesList ul li a{
+	font-family: Helvetica, arial; 
+	font-size: 12px; 
+	text-shadow:0px 1px 1px rgba(0, 0, 0, 0.6); }
 
 #ourServices .ourServicesList ul li p{color: #bbbbbb; margin-bottom: 10px;}
 #ourServices .ourServicesList ul li a{color: #ffffff;}
@@ -183,7 +203,9 @@ a{text-decoration: none; color: #333333;}
 #ourServices .ourServicesList ul .lastListItemMargin{ margin-right: none;}
 
 #ourGlobLocations .ProviderGlobLocationMap{ float: left; margin-right: 80px;}
+
 #ourGlobLocations .ProviderGlobLocationMap h1{font-size: 21px; color: #444444; margin-bottom: 10px; font-weight: normal; }
+
 #ourGlobLocations .ProviderGlobLocationMap .ProviderGlobLocationCityMap{
 	width:605px;
 	height:385px;
@@ -192,12 +214,64 @@ a{text-decoration: none; color: #333333;}
 	}
 
 #ourGlobLocations .ProviderGlobLocationProviderTeam{ float: left;}
+
 #ourGlobLocations .ProviderGlobLocationProviderTeam h1{font-size: 17px; color: #dd4422; margin-bottom: 20px;}
+
 #ourGlobLocations .ProviderGlobLocationProviderTeam ul li{width:180px; list-style-type: none; margin-bottom: 15px;}
+
 #ourGlobLocations .ProviderGlobLocationProviderTeam .ProviderImgWrap{width: 44px; height: 44px; float: left; margin-right: 15px;}
+
 #ourGlobLocations .ProviderGlobLocationProviderTeam .ProviderInfo{height: 44px; }
+
 .ProviderInfo .title{font-size: 13px; color: #222222; line-height: 18px; display: block; padding-top:3px;}
+
 .ProviderInfo .description{font-size: 11px; color: #888888; line-height: 22px; display: block;}
+
+#ourTeam .ourTeamInfo{margin-bottom: 25px;}
+
+#ourTeam h1{
+	font-size: 24px; 
+	color: #444444; 
+	margin-bottom: 25px; 
+	font-weight: normal; 
+	text-align: center; }
+
+#ourTeam .ourTeamInfo ul{}
+#ourTeam .ourTeamInfo ul li{
+	width:404px; 
+	height:64px; 
+	float:left; 
+	margin:0 30px 30px 0; 
+	list-style-type: none; 
+	background: #ffffff; 
+	border-radius: 4px;
+	box-shadow:0px 0px 5px rgba(0, 0, 0, 0.2); 
+	padding: 18px;}
+
+#ourTeam .ourTeamInfo ul li .teamMemberImgWrap{width: 66px; height: 66px; float: left; border: 1px double #dddddd; border-radius: 6px; padding: 2px; margin-right: 15px; }
+
+#ourTeam .ImgroundedCorner{width: 66px; height: 66px; border-radius: 6px;}
+
+#ourTeam .ourTeamInfo .memberInfo{height: 44px; padding-top:5px; }
+
+.memberInfo .TeamInfotitle{font-size: 16px; color: #222222; line-height: 18px; padding-top:3px;}
+
+.memberInfo .TeamMemberDesignation{font-size: 14px; color: #d54102; line-height: 22px;}
+
+.memberInfo .TeamInfodescription{font-size: 12px; color: #888888; line-height: 18px; display: block;}
+
+#footer .footerNav{width: 450px; height: 15px; margin: 0 auto; margin-bottom: 10px;}
+
+#footer .footerNav ul{}
+
+#footer .footerNav ul li{ font-size: 12px; list-style-type: none; float: left; color: #d9d9d9; margin-right: 8px; font-weight: bold;}
+
+#footer .footerNav ul li a{text-decoration: none; color: #d9d9d9; margin-right:5px; font-weight: bold;}
+
+#footer .copyright{font-size: 12px; color:#888888; text-align: center;}
+
+
+
 
 
 

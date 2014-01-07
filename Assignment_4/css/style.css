@@ -20,7 +20,7 @@ a{text-decoration: none; color: #333333;}
 
 .clear{clear:both;}
 
-#header, #slider, #ourServices, #ourGlobLocations, #ourTeam, #footer{width:100%; box-shadow: 1px 1px 5px #999999;}
+#header, #slider, #ourServices, #ourGlobLocations, #ourTeam, #footer{width:100%; box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);}
 
 #header{/*height:45px;*/ background-color: #ffffff; padding: 12px 0 11px 0; }
 
@@ -125,7 +125,7 @@ a{text-decoration: none; color: #333333;}
 	line-height: 35px; 
 	text-align: center; 
 	border-radius: 15px; 
-	background: #ffffff;}
+	background: #f7f7f7;}
 
 .translationBtnContainer{ width: 740px; margin: 0 auto; margin-bottom: 10px; padding-left: 188px;}
 
@@ -182,9 +182,24 @@ a{text-decoration: none; color: #333333;}
 #ourServices .ourServicesList ul .ListItemMargin{ margin-right: 20px;}
 #ourServices .ourServicesList ul .lastListItemMargin{ margin-right: none;}
 
-#ourGlobLocations .ProviderGlobLocationMap{ float: left; margin-right: 20px;}
+#ourGlobLocations .ProviderGlobLocationMap{ float: left; margin-right: 80px;}
+#ourGlobLocations .ProviderGlobLocationMap h1{font-size: 21px; color: #444444; margin-bottom: 10px; font-weight: normal; }
+#ourGlobLocations .ProviderGlobLocationMap .ProviderGlobLocationCityMap{
+	width:605px;
+	height:385px;
+	margin-bottom: 30px;
+	background: url(../images/mapBg.png) no-repeat;
+	}
 
-#ourGlobLocations .ProviderGlobLocationTeam{ float: left;}
+#ourGlobLocations .ProviderGlobLocationProviderTeam{ float: left;}
+#ourGlobLocations .ProviderGlobLocationProviderTeam h1{font-size: 17px; color: #dd4422; margin-bottom: 20px;}
+#ourGlobLocations .ProviderGlobLocationProviderTeam ul li{width:180px; list-style-type: none; margin-bottom: 15px;}
+#ourGlobLocations .ProviderGlobLocationProviderTeam .ProviderImgWrap{width: 44px; height: 44px; float: left; margin-right: 15px;}
+#ourGlobLocations .ProviderGlobLocationProviderTeam .ProviderInfo{height: 44px; }
+.ProviderInfo .title{font-size: 13px; color: #222222; line-height: 18px; display: block; padding-top:3px;}
+.ProviderInfo .description{font-size: 11px; color: #888888; line-height: 22px; display: block;}
+
+
 
 
 

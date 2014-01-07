@@ -16,14 +16,17 @@ body{
 }
 
 img{border:none;}
+a{text-decoration: none; color: #333333;}
+
+.clear{clear:both;}
 
 #header, #slider, #ourServices, #ourGlobLocations, #ourTeam, #footer{width:100%; box-shadow: 1px 1px 5px #999999;}
 
-#header{ background-color: #ffffff; padding: 12px 0 11px 0;}
+#header{/*height:45px;*/ background-color: #ffffff; padding: 12px 0 11px 0; }
 
 #slider{ background-color: #eeeeee; padding: 10px 0 25px 0;}
 
-#ourServices{ background-color: #444444; padding: 36px 0 34px 0;}
+#ourServices{ background-color: #444444; padding: 24px 0 27px 0;}
 
 #ourGlobLocations{ background-color: #ffffff; box-shadow: -1px -1px 5px #999999; padding: 46px 0 43px 0;}
 
@@ -34,6 +37,157 @@ img{border:none;}
 .container{
 	width:940px;
 	margin: 0 auto;
+	}
+
+#logo{width:140px; height:45px; display: block; float:left; margin-right: 210px; background:url(../images/logo.png) no-repeat;}
+
+#header .navigation{ float:left;}
+
+#header .navigation ul{ line-height: 38px;}
+
+#header .navigation ul li{list-style-type: none; padding:0 20px; float:left; color: #444444;}
+
+#header .navigation ul li a{padding:0 20px; color: #444444;}
+
+#header .navigation ul li a:hover{padding:0 20px; color: #666666;}
+
+#header .homeTab{background: url(../images/homeIco.png) no-repeat left center;}
+
+#header .howItWorkTab{background: url(../images/howItWorksIco.png) no-repeat left center;}
+
+#header .plansAndPricingTab{background: url(../images/plansAndPricingIco.png) no-repeat left center;}
+
+#header .signin{
+	width: 78px; 
+	height: 28px; 
+	display: block; 
+	float: right; 
+	color: #ffffff; 
+	font-size: 14px;
+	font-weight: bold; 
+	text-align: center; 
+	line-height: 28px;
+	margin: 5px 10px 5px 0; 
+	background:url(../images/signinBg.png) repeat-x; 
+	border: 1px solid #0e0e0e; 
+	border-radius: 4px; 
+	-mz-border-radius:4px; 
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+	 }
+
+#slider .sliderImages{height: 250px;}
+
+#slider .paging{
+	width:960px; height: 20px;
+	}
+
+#slider .paging ul{
+	width:60px; margin: 0 auto;
+	}
+
+#slider .paging ul li{
+	list-style-type: none; float: left; margin-right: 3px;
 }
 
-#logo{width:140px; height:45px; float: left; background:url(../images/logo.png) no-repeat;}
+.paging a{
+	text-decoration:none; 
+	width:17px; 
+	height:17px;
+	display: block;
+	background: url(../images/sliderBullet.png) no-repeat; 
+	} 
+
+
+.paging a:hover{
+	text-decoration:none; 
+	width:17px; 
+	height:17px;
+	display: block;
+	background: url(../images/sliderBulletHover.png) no-repeat;}
+
+#slider h1, #slider h2{text-align: center; font-weight: normal;}
+#slider h1{color: #666666; font-size:24px;}
+#slider h2{color: #444444; font-size:30px; margin-bottom: 15px;}
+
+.signupShadow{
+	width: 940px; 
+	margin: 0 auto; 
+	background: url(../images/borderShadow.png) no-repeat center center; 
+	margin-bottom: 30px;}
+
+.signupShadow .signupBtn{
+	width:120px; 
+	height: 35px; 
+	display: block; 
+	margin: 0 auto; 
+	font-size:14px; 
+	font-weight: bold; 
+	line-height: 35px; 
+	text-align: center; 
+	border-radius: 15px; 
+	background: #ffffff;}
+
+.translationBtnContainer{ width: 740px; margin: 0 auto; margin-bottom: 10px; padding-left: 188px;}
+
+.OrangetranslationBtn{
+	width: 248px; 
+	height: 33px; 
+	display: block; 
+	float: left;
+	font-size: 16px; 
+	font-weight: bold;
+	color: #ffffff; 
+	text-align: center;
+	text-shadow:1px 1px 1px rgba(0, 0, 0, 0.4);
+	border: 1px solid #992211;
+	border-radius: 4px;
+	padding-top: 15px;
+	background: url(../images/orangeBtnBg.png) repeat-x;}
+
+.translationBtnContainer span{line-height: 48px; display:block; float: left; font-size:16px; font-weight: bold; color: #666666; margin: 0 15px;}
+
+#ourServices .ourServicesList{ height: 310px; }
+
+#ourServices .ourServicesList ul{}
+
+#ourServices .ourServicesList ul li{width: 200px; height: 290px; float: left; list-style-type: none; padding: 10px;}
+
+#ourServices .ourServicesList ul li .imgWrapper{width: 161px; height: 161px; background: url(../images/BlackBg.png) no-repeat; margin: 0 auto; margin-bottom: 10px; }
+
+#ourServices .ourServicesList ul li .imgWrapper .engageImg{width: 161px; height: 161px; background: url(../images/img1-Engage.png) no-repeat center center;}
+
+#ourServices .ourServicesList ul li .imgWrapper .derectoriesImg{width: 161px; height: 161px; background: url(../images/img2-derectories.png) no-repeat center center;}
+
+#ourServices .ourServicesList ul li .imgWrapper .certapayImg{width: 161px; height: 161px; background: url(../images/img3-certapay.png) no-repeat center center;}
+
+#ourServices .ourServicesList ul li .imgWrapper .toolsImg{width: 161px; height: 161px; background: url(../images/img4-tools.png) no-repeat center center;}
+
+#ourServices .ourServicesList ul li h3{
+	width:200px;
+	margin: 0 auto;	
+	font-size: 14px; 
+	color: #ffffff; 
+	text-align: center; 
+	text-shadow:1px 1px 1px rgba(0, 0, 0, 0.4); 
+	line-height: 33px; 
+	}
+
+#ourServices .ourServicesList ul li .hrLine{width: 220px; background: url(../images/borderBg.png) repeat-x ; border:0; margin-bottom: 15px;}
+
+#ourServices .ourServicesList ul li p, #ourServices .ourServicesList ul li a{font-family: Helvetica, arial; font-size: 12px; text-shadow:0px 1px 1px rgba(0, 0, 0, 0.6); }
+
+#ourServices .ourServicesList ul li p{color: #bbbbbb; margin-bottom: 10px;}
+#ourServices .ourServicesList ul li a{color: #ffffff;}
+
+#ourServices .ourServicesList ul .ListItemMargin{ margin-right: 20px;}
+#ourServices .ourServicesList ul .lastListItemMargin{ margin-right: none;}
+
+#ourGlobLocations .ProviderGlobLocationMap{ float: left; margin-right: 20px;}
+
+#ourGlobLocations .ProviderGlobLocationTeam{ float: left;}
+
+
+
+
+
+

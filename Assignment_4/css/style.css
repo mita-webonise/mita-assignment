@@ -211,7 +211,67 @@ a{text-decoration: none; color: #333333;}
 	height:385px;
 	margin-bottom: 30px;
 	background: url(../images/mapBg.png) no-repeat;
+	position:relative;
 	}
+
+/*#ourGlobLocations .ProviderGlobLocationMap .ProviderGlobLocationCityMap .providerLocation{ width:100px; height:30px; background: url(../images/citypin.png) no-repeat left center; padding-left: 30px; position: absolute; left:660px;  top:220px;}*/
+
+#ourGlobLocations .ProviderGlobLocationMap .ProviderGlobLocationCityMap .providerLocationOne {
+	width:100px; 
+	height:30px; 
+	background: url(../images/citypin.png) no-repeat left center; 
+	padding-left: 25px; 
+	position: absolute; 
+	left:145px;  
+	top:190px;}
+
+#ourGlobLocations .ProviderGlobLocationMap .ProviderGlobLocationCityMap .providerLocationTwo {
+	width:100px; 
+	height:30px; 
+	background: url(../images/citypin.png) no-repeat left center; 
+	padding-left: 25px; 
+	position: absolute; 
+	left:155px;  
+	top:275px;}
+
+#ourGlobLocations .ProviderGlobLocationMap .ProviderGlobLocationCityMap .providerLocationThree {
+	width:100px; 
+	height:30px; 
+	background: url(../images/citypin.png) no-repeat left center; 
+	padding-left: 25px; 
+	position: absolute; 
+	left:290px;  
+	top:153px;}
+
+#ourGlobLocations .ProviderGlobLocationMap .ProviderGlobLocationCityMap .providerLocationFour {
+	width:100px; 
+	height:30px; 
+	background: url(../images/citypin.png) no-repeat left center; 
+	padding-left: 25px; 
+	position: absolute; 
+	left:335px;  
+	top:204px;}
+
+#ourGlobLocations .ProviderGlobLocationMap .ProviderGlobLocationCityMap .providerLocationFive {
+	width:100px; 
+	height:30px; 
+	background: url(../images/citypin.png) no-repeat left center; 
+	padding-left: 25px; 
+	position: absolute; 
+	left:495px;  
+	top:175px;}
+
+#ourGlobLocations .ProviderGlobLocationMap .ProviderGlobLocationCityMap .providerLocationSix {
+	width:100px; 
+	height:30px; 
+	background: url(../images/citypin.png) no-repeat left center; 
+	padding-left: 25px; 
+	position: absolute; 
+	left:521px;  
+	top:312px;}
+
+.RedText{display: block; color: #dd4422; font-weight: bold; font-size: 15px;}
+.blackText{display: block; font-size: 11px;}
 
 #ourGlobLocations .ProviderGlobLocationProviderTeam{ float: left;}
 

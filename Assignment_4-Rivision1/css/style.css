@@ -97,7 +97,7 @@ li{list-style-type: none;}
 
 /*#header .navigationSigninWrap .navigation{ float:left;}*/
 
-#header .navigationSigninWrap ul{ line-height: 15px; float:left; margin: 9px 20px 14px 0; }
+#header .navigationSigninWrap ul{ line-height: 15px; float:left; margin: 9px 30px 14px 0; }
 
 #header .navigationSigninWrap ul li{font-family:'robotobold', arial; font-size:14px; padding:0 20px; float:left; color: #444444;}
 
@@ -119,6 +119,7 @@ li{list-style-type: none;}
 	line-height: 28px;
 	display: block; 
 	float: right; 
+	font-family: 'robotobold';
 	color: #ffffff; 
 	font-size: 14px;
 	text-align: center; 
@@ -133,7 +134,7 @@ li{list-style-type: none;}
 #slider .sliderImages{height: 250px;}
 
 #slider .paging{
-	width:960px; height: 20px;
+	width:960px;  height: 20px; 
 	}
 
 #slider .paging ul{
@@ -141,7 +142,7 @@ li{list-style-type: none;}
 	}
 
 #slider .paging ul li{
-	float: left; margin-right: 3px;
+	float: left; 
 }
 
 .paging a{

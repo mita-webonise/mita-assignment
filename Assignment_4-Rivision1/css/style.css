@@ -82,7 +82,7 @@ li{list-style-type: none;}
 
 #ourGlobLocations{ background-color: #ffffff; box-shadow: -1px -1px 5px #999999; padding: 41px 0 44px 0;}
 
-#ourTeam{ background-color: #dddddd; padding: 42px 0 17px 0;}
+#ourTeam{ background-color: #dddddd; padding: 42px 0 12px 0;}
 
 #footer{ background-color: #353535; padding: 14px 0 19px 0;}
 
@@ -372,7 +372,7 @@ li{list-style-type: none;}
 	background: #ffffff; 
 	border-radius: 4px;
 	box-shadow:0px 0px 5px rgba(0, 0, 0, 0.2); 
-	padding:20px 18px 18px;}
+	padding:20px 18px;}
 
 #ourTeam .ourTeamInfo ul li .teamMemberImgWrap{
 	width: 66px; 

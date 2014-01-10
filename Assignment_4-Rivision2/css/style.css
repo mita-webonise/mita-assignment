@@ -1,0 +1,481 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff'),
+         url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.eot');
+    src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff'),
+         url('../fonts/roboto-bold-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('../fonts/roboto-italic-webfont.eot');
+    src: url('../fonts/roboto-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-italic-webfont.woff') format('woff'),
+         url('../fonts/roboto-italic-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-italic-webfont.svg#robotoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../fonts/roboto-medium-webfont.eot');
+    src: url('../fonts/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-medium-webfont.woff') format('woff'),
+         url('../fonts/roboto-medium-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+	margin:0; 
+	padding:0;
+	}
+
+body{
+	font-family: 'robotoregular', arial;
+}
+
+img{border:none;}
+a{text-decoration: none; color: #333333;}
+h1, h2, h3, h4, h5, h6{font-weight: normal;}
+li{list-style-type: none;}
+
+.clear{clear:both;}
+
+/*#header, #slider, #ourServices, #ourGlobLocations, #ourTeam, #footer{width:100%; box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);}
+
+#header{background-color: #ffffff; padding: 12px 0 11px 0; }
+
+#slider{ background-color: #eeeeee; padding: 10px 0 25px 0;}
+
+#ourServices{ background-color: #444444; padding: 24px 0 27px 0;}
+
+#ourGlobLocations{ background-color: #ffffff; box-shadow: -1px -1px 5px #999999; padding: 41px 0 44px 0;}
+
+#ourTeam{ background-color: #dddddd; padding: 42px 0 12px 0;}
+
+#footer{ background-color: #353535; padding: 14px 0 19px 0;}*/
+
+#header, #slider, #ourServices, #ourGlobLocations, #ourTeam, #footer{width:100%; box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);}
+
+#header{/*height:45px;*/ background-color: #ffffff; padding: 12px 0 11px 0; }
+
+#slider{ background-color: #eeeeee; padding: 10px 0 25px 0;}
+
+#ourServices{ background-color: #444444; padding: 22px 0 28px 0;}
+
+#ourGlobLocations{ background-color: #ffffff; box-shadow: -1px -1px 5px #999999; padding: 46px 0 46px 0;}
+
+#ourTeam{ background-color: #dddddd; padding: 51px 0 36px 0;}
+
+#footer{ background-color: #353535; padding: 14px 0 19px 0;}
+
+.container{
+	width:940px;
+	margin: 0 auto;
+	}
+
+#logo{width:140px; height:38px; display: block; float:left; background:url(../images/logo.png) no-repeat;}
+
+#header .navigationSigninWrap{ float: right;}
+
+/*#header .navigationSigninWrap .navigation{ float:left;}*/
+
+#header .navigationSigninWrap ul{ line-height:15px; float:left; margin: 9px 20px 14px 0; }
+
+#header .navigationSigninWrap ul li{font-family:'robotobold', arial; font-size:14px; padding:0 20px; float:left; color: #444444;}
+
+#header .navigationSigninWrap ul li span{width: 15px; height: 15px; display:block; float:left; margin-right:11px;}
+
+#header .navigationSigninWrap .homeTabIcon{background: url(../images/homeIco.png) no-repeat;}
+
+#header .navigationSigninWrap .howItWorkTabIcon{background: url(../images/howItWorksIco.png) no-repeat;}
+
+#header .navigationSigninWrap .plansAndPricingTabIcon{background: url(../images/plansAndPricingIco.png) no-repeat;}
+
+#header .navigationSigninWrap ul li a{color: #444444;}
+
+#header .navigationSigninWrap ul li a:hover{color: #666666;}
+
+#header .navigationSigninWrap .signin{
+	width: 78px; 
+	height: 28px; 
+	line-height: 28px;
+	display: block; 
+	float: right; 
+	font-family: 'robotobold';
+	color: #ffffff; 
+	font-size: 14px;
+	text-align: center; 
+	margin-top:2px; 
+	background:url(../images/signinBg.png) repeat-x; 
+	border: 1px solid #0e0e0e; 
+	border-radius: 4px; 
+	-mz-border-radius:4px; 
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+	 }
+
+#slider .sliderImages{height: 250px;}
+
+#slider .paging{
+	width:960px;  height: 20px; 
+	}
+
+#slider .paging ul{
+	width:60px; margin: 0 auto;
+	}
+
+#slider .paging ul li{
+	float: left; 
+}
+
+.paging a{
+	text-decoration:none; 
+	width:17px; 
+	height:17px;
+	display: block;
+	background: url(../images/sliderBullet.png) no-repeat; 
+	} 
+
+
+.paging a:hover{
+	text-decoration:none; 
+	width:17px; 
+	height:17px;
+	display: block;
+	background: url(../images/sliderBulletHover.png) no-repeat;}
+
+#slider h1, #slider h2{font-family:'robotomedium', arial; text-align: center; text-shadow:1px 1px 1px rgba(255, 255, 255, 1);}
+#slider h2{color: #666666; font-size:24px; line-height: 24px; margin-bottom: 4px;}
+#slider h1{color: #444444; font-size:30px; line-height: 30px; margin-bottom: 26px;}
+
+.signupShadow{
+	width: 940px; 
+	margin: 0 auto; 
+	background: url(../images/borderShadow.png) no-repeat center 19px; 
+	margin-bottom: 30px;}
+
+.signupShadow .signupBtn{
+	width:120px; 
+	height: 35px;
+	font-family: 'robotobold', arial; 
+	display: block; 
+	margin: 0 auto; 
+	font-size:14px; 
+	line-height: 35px; 
+	text-align: center; 
+	border-radius: 15px; 
+	background: #f7f7f7;}
+
+.translationBtnContainer{ width: 740px; margin: 0 auto; margin-bottom:9px; padding-left: 188px;}
+
+.OrangetranslationBtn{
+	width: 248px; 
+	height: 48px; 
+	display: block; 
+	float: left;
+	font-family: 'robotobold', arial;
+	font-size: 16px; 
+	color: #ffffff; 
+	text-align: center;
+	line-height: 48px;
+	text-shadow:1px 1px 1px rgba(0, 0, 0, 0.4);
+	border: 1px solid #992211;
+	border-radius: 4px;
+	/*padding-top: 15px;*/
+	background: url(../images/orangeBtnBg.png) repeat-x;}
+
+.translationBtnContainer span{
+	line-height: 48px; 
+	display:block; 
+	float: left; 
+	font-size:16px; 
+	font-weight: bold; 
+	color: #666666; 
+	margin: 0 15px;}
+
+/*#ourServices .ourServicesList{ height: 310px; }*/
+
+#ourServices ul{}
+
+#ourServices ul .ourServicesList{
+	width: 200px; 
+	height: 290px; 
+	float: left; 
+	padding:10px;}
+
+#ourServices ul .ourServicesList .imgWrapper{
+	width: 161px; 
+	height: 161px; 
+	background: url(../images/BlackBg.png) no-repeat; 
+	margin: 0 auto; 
+	margin-bottom: 10px; }
+
+#ourServices ul .ourServicesList .imgWrapper .engageImg{width: 161px; height: 161px; background: url(../images/img1-Engage.png) no-repeat center center;}
+
+#ourServices ul .ourServicesList .imgWrapper .derectoriesImg{width: 161px; height: 161px; background: url(../images/img2-derectories.png) no-repeat center center;}
+
+#ourServices ul .ourServicesList .imgWrapper .certapayImg{width: 161px; height: 161px; background: url(../images/img3-certapay.png) no-repeat center center;}
+
+#ourServices ul .ourServicesList .imgWrapper .toolsImg{width: 161px; height: 161px; background: url(../images/img4-tools.png) no-repeat center center;}
+
+#ourServices ul .ourServicesList h5{
+	width:200px;
+	margin: 0 auto;
+	font-family: 'robotomedium';	
+	font-size: 16px; 
+	color: #ffffff; 
+	text-align: center; 
+	text-shadow:1px 1px 1px rgba(0, 0, 0, 0.4); 
+	line-height: 38px;
+	}
+
+#ourServices ul .ourServicesList .BottomLine{width: 200px; background: url(../images/borderBg.png) repeat-x left bottom ; border:0; margin-bottom: 10px;}
+
+#ourServices ul .ourServicesList p, #ourServices ul .ourServicesList a{
+	font-family: Helvetica, arial; 
+	font-size: 12px; 
+	text-shadow:0px 1px 1px rgba(0, 0, 0, 0.6); }
+
+#ourServices ul .ourServicesList p{color: #bbbbbb;  line-height:18px;}
+#ourServices ul .ourServicesList a{font-family: 'robotoregular'; color: #ffffff;}
+#ourServices ul .ourServicesList a:hover{color: #ffffff; font-family: 'robotobold';}
+
+#ourServices ul .ListItemMargin{ margin-right: 20px;}
+#ourServices ul .lastListItemMargin{ margin-right: none;}
+
+#ourGlobLocations .ProviderLocationNListContainer{margin-bottom:38px;}
+
+#ourGlobLocations .ProviderGlobLocationMap{width: 620px; float: left; margin-right: 50px;}
+
+#ourGlobLocations .ProviderGlobLocationMap h3{font-family:'robotomedium'; font-size: 21px; line-height: 21px; color: #444444; margin-bottom: 17px; font-weight: normal; }
+
+#ourGlobLocations .ProviderGlobLocationMap .ProviderGlobLocationCityMap{
+	width:630px;
+	height:385px;
+	background: url(../images/mapBg.png) no-repeat;
+	position:relative;
+	}
+
+/*#ourGlobLocations .ProviderGlobLocationMap .ProviderGlobLocationCityMap .providerLocation{ width:100px; height:30px; background: url(../images/citypin.png) no-repeat left center; padding-left: 30px; position: absolute; left:660px;  top:220px;}*/
+
+#ourGlobLocations .ProviderGlobLocationMap .ProviderGlobLocationCityMap .providerLocationOne {
+	width:100px; 
+	height:30px; 
+	background: url(../images/citypin.png) no-repeat left center; 
+	padding-left: 25px; 
+	position: absolute; 
+	left:145px;  
+	top:190px;}
+
+#ourGlobLocations .ProviderGlobLocationMap .ProviderGlobLocationCityMap .providerLocationTwo {
+	width:100px; 
+	height:30px; 
+	background: url(../images/citypin.png) no-repeat left center; 
+	padding-left: 25px; 
+	position: absolute; 
+	left:155px;  
+	top:275px;}
+
+#ourGlobLocations .ProviderGlobLocationMap .ProviderGlobLocationCityMap .providerLocationThree {
+	width:100px; 
+	height:30px; 
+	background: url(../images/citypin.png) no-repeat left center; 
+	padding-left: 25px; 
+	position: absolute; 
+	left:290px;  
+	top:153px;}
+
+#ourGlobLocations .ProviderGlobLocationMap .ProviderGlobLocationCityMap .providerLocationFour {
+	width:100px; 
+	height:30px; 
+	background: url(../images/citypin.png) no-repeat left center; 
+	padding-left: 25px; 
+	position: absolute; 
+	left:335px;  
+	top:204px;}
+
+#ourGlobLocations .ProviderGlobLocationMap .ProviderGlobLocationCityMap .providerLocationFive {
+	width:100px; 
+	height:30px; 
+	background: url(../images/citypin.png) no-repeat left center; 
+	padding-left: 25px; 
+	position: absolute; 
+	left:495px;  
+	top:175px;}
+
+#ourGlobLocations .ProviderGlobLocationMap .ProviderGlobLocationCityMap .providerLocationSix {
+	width:100px; 
+	height:30px; 
+	background: url(../images/citypin.png) no-repeat left center; 
+	padding-left: 25px; 
+	position: absolute; 
+	left:521px;  
+	top:312px;}
+
+.RedText{display: block; color: #dd4422; font-weight: bold; font-size: 15px;}
+.blackText{display: block; font-size: 11px;}
+
+#ourGlobLocations .ProviderGlobLocationProviderTeam{width: 270px; float: left;}
+
+#ourGlobLocations .ProviderGlobLocationProviderTeam h4{
+	font-family: 'robotobold';
+	font-size:18px;
+	line-height:18px; 
+	color: #dd4422; 
+	border-bottom: 1px solid #ebebeb; 
+	margin-bottom:14px; 
+	padding-bottom:9px;}
+
+#ourGlobLocations .ProviderGlobLocationProviderTeam ul li{margin-bottom: 15px;}
+
+#ourGlobLocations .ProviderGlobLocationProviderTeam .ProviderImgWrap{
+	max-width: 44px; 
+	max-height: 44px; 
+	float: left; 
+	border: 1px solid #cccccc; 
+	border-radius: 44px; 
+	margin-right: 15px; 
+	background: #ffffff; }
+#ourGlobLocations .ProviderGlobLocationProviderTeam .ProviderImgWrap img{max-width: 44px; max-height: 44px; border-radius: 44px; float: left; margin-right: 0;}
+
+#ourGlobLocations .ProviderGlobLocationProviderTeam .ProviderInfo{height: 44px; float: left;}
+
+.ProviderInfo .title{font-family:helvetica, arial; font-size: 13px; color: #222222; line-height: 18px; display: block; padding-top:3px;}
+
+.ProviderInfo .description{font-family:helvetica, arial; font-size: 11px; color: #888888; line-height:18px; display: block;}
+
+#ourTeam .ourTeamInfo{margin-bottom: 25px;}
+
+#ourTeam h2{
+	font-family: 'robotomedium', arial;
+	font-size: 24px; 
+	line-height: 24px;
+	color: #444444; 
+	margin-bottom: 25px; 
+	font-weight: normal; 
+	text-align: center; }
+
+#ourTeam ul{padding:0 10px;}
+#ourTeam ul .teamPersonInfo{
+	width:404px; 
+	height:70px; 
+	float:left; 
+	margin:0 30px 32px 0; 
+	background: #ffffff; 
+	border-radius: 4px;
+	box-shadow:0px 0px 5px rgba(0, 0, 0, 0.2); 
+	padding:20px 18px;}
+
+#ourTeam ul .ListMarginRight{margin:0 10px 32px 0;}
+
+#ourTeam ul li .teamMemberImgWrap{
+	width: 66px; 
+	height: 66px; 
+	float: left; 
+	border: 1px double #dddddd; 
+	border-radius: 6px; 
+	padding: 2px; 
+	margin-right: 15px; }
+
+#ourTeam .ImgroundedCorner{
+	width: 66px; 
+	height: 66px; 
+	float: left; 
+	border-radius: 6px;}
+
+#ourTeam .memberInfo{
+	width:312px; 
+	float: left; 
+	padding-top:5px; }
+
+.memberInfo .TeamInfotitle{
+	font-family: 'robotobold', arial;
+	font-size: 16px; 
+	color: #222222; 
+	line-height: 18px; 
+	padding-top:3px;}
+
+.memberInfo .TeamMemberDesignation{
+	font-size: 14px; 
+	color: #d54102; 
+	line-height: 22px;}
+
+.memberInfo .TeamInfodescription{
+	font-size: 12px; 
+	color: #888888; 
+	line-height: 18px; 
+	display: block;}
+
+#footer .footerNav{
+	width: 450px; 
+	height: 15px; 
+	margin: 0 auto; 
+	margin-bottom: 5px;}
+
+#footer .footerNav ul{}
+
+#footer .footerNav ul li{
+	font-family: 'robotobold', arial; 
+	font-size: 12px; 
+	float: left; 
+	color: #d9d9d9; 
+	margin-right: 8px;}
+
+#footer .footerNav ul li a{
+	font-family: 'robotobold', arial; 
+	text-decoration: none; 
+	color: #d9d9d9; 
+	margin-right:5px;}
+
+#footer .copyright{
+	font-size: 12px; 
+	color:#888888; 
+	text-align: center;}
+
+ul li.clear{float: none;
+ clear: both;}
+
+ #ourServices ul li.clear{float: none;
+ clear: both;} 
+
+
+
+
+
+
+
+
+
+
+

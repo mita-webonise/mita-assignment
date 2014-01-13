@@ -1,0 +1,250 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto-light-webfont.eot');
+    src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-light-webfont.woff') format('woff'),
+         url('../fonts/roboto-light-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('../fonts/roboto-thin-webfont.eot');
+    src: url('../fonts/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-thin-webfont.woff') format('woff'),
+         url('../fonts/roboto-thin-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../fonts/roboto-medium-webfont.eot');
+    src: url('../fonts/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-medium-webfont.woff') format('woff'),
+         url('../fonts/roboto-medium-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+	margin:0; 
+	padding:0;
+	}
+
+body{
+	font-family: 'robotoregular', arial; margin-top: 60px;
+}
+
+img{border:none;}
+a{text-decoration: none;}
+h1, h2, h3, h4, h5, h6{font-weight: normal;}
+li{list-style-type: none;}
+
+h1{font-family: 'robotothin', tahoma; font-size:36px; color: #d54405;}
+
+.clear{clear:both;}
+
+.container{
+    width:940px;
+    margin: 0 auto;
+    }
+
+#header{border-bottom: 1px solid #e4e4e4; margin-bottom: 12px; height: 46px;}
+
+#header #logo{
+    width:285px; 
+    height:30px; 
+    display: block; 
+    float:left; 
+    background:url(../images/logo.png) no-repeat;}
+
+#header .navigationSearchwrap{float: right; margin-top: 9px;}
+
+#header .navigationSearchwrap ul{float: left; }
+#header .navigationSearchwrap ul li{
+    font-family:'robotolight', tahoma; 
+    font-size: 15px; 
+    float: left; 
+    margin-right: 37px; 
+    line-height: 30px; }
+
+#header .navigationSearchwrap ul li a{ display: block; color:#1a4da2;}
+
+#header .navigationSearchwrap ul li a:hover{ display: block; color:#000000;}
+
+#header .navigationSearchwrap .searchbtn{float: left; width: 170px;}
+
+#header .navigationSearchwrap .searchbtn .searchfeild{
+    width:138px; 
+    line-height:30px; 
+    padding:7px 0; 
+    padding-left: 30px; 
+    background: url(../images/searchIcon.png) no-repeat 7px center; 
+    font-family: tahoma; 
+    font-size: 11px; 
+    border: 1px solid #bbbbbb; 
+    border-radius: 4px; /*box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 1);*/}
+
+.pageLocation {
+    font-family: tahoma; 
+    font-size: 11px; 
+    line-height: 11px; 
+    color: #1a4da2; 
+    margin-bottom: 48px; }
+
+.pageLocation a{
+    color: #1a4da2; 
+    background: url(../images/pageLocationBullate.png) no-repeat right center; 
+    padding-right: 8px; 
+    margin-right: 10px;}
+
+.pageLocation .BgNone{
+    color: #1a4da2; 
+    background: none; 
+    padding-right: 8px;}
+
+.pageLocation a:hover, .pageLocation a:active{color: #000000; font-weight: bold;}
+
+#desinationHeading{ 
+    height: 53px;
+    border-bottom:29px; 
+    border-bottom: 1px solid #e4e4e4; 
+    padding-bottom: 12px;
+    margin-bottom:29px; }
+
+#desinationHeading .heading{line-height: 53px; float:left;}
+
+#desinationHeading .heading .profilePic{max-width: 53px; max-height: 53px; float: left; margin-right: 15px;}
+
+#desinationHeading .heading img{max-width: 53px; max-height: 53px;}
+
+#desinationHeading .heading h1{float:left; line-height: 53px;}
+
+#desinationHeading ul{float: right; margin-top: 20px;}
+
+#desinationHeading ul li{
+    font-family:'robotolight', tahoma; 
+    font-size: 15px; 
+    float: left; 
+     
+    line-height: 34px;
+    border-radius: 4px; }
+
+#desinationHeading ul li a{ display: block; color:#1a4da2; line-height: 34px; padding: 0 15px;}
+
+#desinationHeading ul li a:hover{ display: block; color:#d54405; border:1px solid #e4e4e4; border-radius: 4px; line-height: 34px;}
+
+.leftNavigation{width: 225px; float: left; margin-right: 25px; }
+
+.leftNavigation li{border-bottom: 1px solid #dddddd; }
+
+.leftNavigation li:hover, .leftNavigation li:active{border-bottom:2px solid #d54405; }
+
+.leftNavigation .HowToReach, .leftNavigation .WhereToStay, .leftNavigation .GettingAround, .leftNavigation .HolidayPackages, .leftNavigation .ImportantInfo, .leftNavigation .TravelChecklist {
+    width: 25px; 
+    height: 64px; 
+    display: block;
+    float: left;
+    margin-right: 15px;} 
+
+.leftNavigation a.HowToReach{background: url(../images/icon1-HowToReach.png) no-repeat; cursor: pointer;}
+.leftNavigation a:hover.HowToReach {background: url(../images/icon1-HowToReachHover.png) no-repeat; cursor: pointer;}
+
+.leftNavigation a.WhereToStay{background: url(../images/icon2-WhereToStay.png) no-repeat; cursor: pointer;}
+.leftNavigation a:hover..WhereToStay{background: url(../images/icon2-WhereToStay.png) no-repeat; cursor: pointer;}
+
+.leftNavigation a.GettingAround{background: url(../images/icon3-GettingAround.png) no-repeat; cursor: pointer;}
+.leftNavigation a:hover..GettingAround{background: url(../images/icon3-GettingAround.png) no-repeat; cursor: pointer;}
+
+.leftNavigation a.HolidayPackages{background: url(../images/icon4-HolidayPackages.png) no-repeat; cursor: pointer;}
+.leftNavigation a:hover..HolidayPackages{background: url(../images/icon4-HolidayPackages.png) no-repeat; cursor: pointer;}
+
+.leftNavigation a.ImportantInfo{background: url(../images/icon5-ImportantInfo.png) no-repeat; cursor: pointer;}
+.leftNavigation a:hover..ImportantInfo{background: url(../images/icon5-ImportantInfo.png) no-repeat; cursor: pointer;}
+
+.leftNavigation a.TravelChecklist{background: url(../images/icon6-TravelChecklist.png) no-repeat; cursor: pointer;}
+.leftNavigation a:hover..TravelChecklist{background: url(../images/icon6-TravelChecklist.png) no-repeat; cursor: pointer;}
+
+
+.leftNavigation .infowrap{
+    width:175px; 
+    float: left; 
+    padding-top:15px;
+    } 
+
+.leftNavigation .infowrap .mainTitle, .leftNavigation .infowrap .subTitle{
+    display: block; 
+    float: left; 
+    font-family:'robotolight', tahoma; 
+    cursor: pointer;}
+
+.leftNavigation .infowrap .mainTitle{
+    font-size: 15px; 
+    color: #1a4da2;
+    display: block;
+    line-height: 20px;}
+
+.leftNavigation .infowrap .mainTitle a{
+    font-size: 15px;
+    color: #1a4da2; 
+    line-height: 20px;}
+
+.leftNavigation .infowrap .mainTitle a:hover, a:active{
+    font-size: 15px;
+    color: #d54405; 
+    line-height: 20px;
+    cursor: pointer;}
+
+.leftNavigation .infowrap .leftNavigation .infowrap .subTitle{
+    font-size: 12px; 
+    color: #878787;
+    line-height: 18px;}
+
+.leftNavigation .infowrap .subTitle a{
+    font-size: 12px; 
+    color: #878787;}
+
+.leftNavigation .infowrap .subTitle a:hover, a:active{
+    font-size: 12px; 
+    color: #000000;
+    cursor: pointer;}
+
+.howToReachMap{
+    width: 690px; 
+    float: left;}
+
+.howToReachMap h1{line-height: 52px; margin-bottom: 12px;}
+
+.howToReachMap .googleMapInfo{padding:15px; border: 1px solid #dadada;  }
+
+.howToReachMap .googleMapimg{max-width: 659px; max-height: 302px; margin-bottom: 20px;}
+
+.howToReachMap .googleMapimg .searchDistance{ margin-bottom: 25px;}
+
+.googleMap .searchDistance lable{font-family: 'robotolight', tahoma; font-size: 14px; color: #444444; margin-right: 16px;}
+
+.googleMap .searchDistance select{padding: 9px; width: 140px; border: 1px solid #bbbbbb; border-radius: 4px;  margin-right: 12px; color: #000000; font-family: 'robotomedium', tahoma;}
+
+.searchDistance span{color: #000000; line-height: 17px; }
+
+.searchDistance .fromKilometers{font-size: 17px;}
+.searchDistance .aWord{font-size: 11px;}
+.searchDistance .aTime{font-size: 16px;}
+.searchDistance .fromCity{font-size: 12px;}
+
+ul li.clear{float: none;
+ clear: both;}

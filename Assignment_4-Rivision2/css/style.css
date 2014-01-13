@@ -111,11 +111,24 @@ li{list-style-type: none;}
 
 /*#header .navigationSigninWrap .navigation{ float:left;}*/
 
-#header .navigationSigninWrap ul{ line-height:15px; float:left; margin: 9px 20px 14px 0; }
+#header .navigationSigninWrap ul{
+	line-height:15px; 
+	float:left; 
+	margin: 9px 20px 14px 0; }
 
-#header .navigationSigninWrap ul li{font-family:'robotobold', arial; font-size:14px; padding:0 20px; float:left; color: #444444;}
+#header .navigationSigninWrap ul li{
+	font-family:'robotobold', arial; 
+	font-size:14px; 
+	padding:0 20px; 
+	float:left; 
+	color: #444444;}
 
-#header .navigationSigninWrap ul li span{width: 15px; height: 15px; display:block; float:left; margin-right:11px;}
+#header .navigationSigninWrap ul li span{
+	width: 15px; 
+	height: 15px; 
+	display:block; 
+	float:left; 
+	margin-right:11px;}
 
 #header .navigationSigninWrap .homeTabIcon{background: url(../images/homeIco.png) no-repeat;}
 
@@ -260,7 +273,11 @@ li{list-style-type: none;}
 	line-height: 38px;
 	}
 
-#ourServices ul .ourServicesList .BottomLine{width: 200px; background: url(../images/borderBg.png) repeat-x left bottom ; border:0; margin-bottom: 10px;}
+#ourServices ul .ourServicesList .BottomLine{
+	width: 200px; 
+	background: url(../images/borderBg.png) repeat-x left bottom ; 
+	border:0; 
+	margin-bottom: 10px;}
 
 #ourServices ul .ourServicesList p, #ourServices ul .ourServicesList a{
 	font-family: Helvetica, arial; 
@@ -276,9 +293,18 @@ li{list-style-type: none;}
 
 #ourGlobLocations .ProviderLocationNListContainer{margin-bottom:38px;}
 
-#ourGlobLocations .ProviderGlobLocationMap{width: 620px; float: left; margin-right: 50px;}
+#ourGlobLocations .ProviderGlobLocationMap{
+	width: 620px; 
+	float: left; 
+	margin-right: 50px;}
 
-#ourGlobLocations .ProviderGlobLocationMap h3{font-family:'robotomedium'; font-size: 21px; line-height: 21px; color: #444444; margin-bottom: 17px; font-weight: normal; }
+#ourGlobLocations .ProviderGlobLocationMap h3{
+	font-family:'robotomedium'; 
+	font-size: 21px; 
+	line-height: 21px; 
+	color: #444444; 
+	margin-bottom: 17px; 
+	font-weight: normal; }
 
 #ourGlobLocations .ProviderGlobLocationMap .ProviderGlobLocationCityMap{
 	width:630px;
@@ -367,13 +393,31 @@ li{list-style-type: none;}
 	border-radius: 44px; 
 	margin-right: 15px; 
 	background: #ffffff; }
-#ourGlobLocations .ProviderGlobLocationProviderTeam .ProviderImgWrap img{max-width: 44px; max-height: 44px; border-radius: 44px; float: left; margin-right: 0;}
+#ourGlobLocations .ProviderGlobLocationProviderTeam .ProviderImgWrap img{
+	max-width: 44px; 
+	max-height: 44px; 
+	border-radius: 44px; 
+	float: left; 
+	margin-right: 0;}
 
-#ourGlobLocations .ProviderGlobLocationProviderTeam .ProviderInfo{height: 44px; float: left;}
+#ourGlobLocations .ProviderGlobLocationProviderTeam .ProviderInfo{
+	height: 44px; 
+	float: left;}
 
-.ProviderInfo .title{font-family:helvetica, arial; font-size: 13px; color: #222222; line-height: 18px; display: block; padding-top:3px;}
+.ProviderInfo .title{
+	font-family:helvetica, 
+	arial; font-size: 13px; 
+	color: #222222; 
+	line-height: 18px; 
+	display: block; 
+	padding-top:3px;}
 
-.ProviderInfo .description{font-family:helvetica, arial; font-size: 11px; color: #888888; line-height:18px; display: block;}
+.ProviderInfo .description{
+	font-family:helvetica, arial; 
+	font-size: 11px; 
+	color: #888888; 
+	line-height:18px; 
+	display: block;}
 
 #ourTeam .ourTeamInfo{margin-bottom: 25px;}
 
@@ -409,8 +453,8 @@ li{list-style-type: none;}
 	margin-right: 15px; }
 
 #ourTeam .ImgroundedCorner{
-	width: 66px; 
-	height: 66px; 
+	max-width: 66px; 
+	max-height: 66px; 
 	float: left; 
 	border-radius: 6px;}
 

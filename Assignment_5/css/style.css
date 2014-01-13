@@ -54,7 +54,11 @@ a{text-decoration: none;}
 h1, h2, h3, h4, h5, h6{font-weight: normal;}
 li{list-style-type: none;}
 
-h1{font-family: 'robotothin', tahoma; font-size:36px; color: #d54405;}
+h1, h2{font-family: 'robotothin', tahoma; color: #d54405;}
+
+h1{font-size:36px;}
+h2{font-size:24px;}
+h3{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
 
 .clear{clear:both;}
 
@@ -229,7 +233,7 @@ h1{font-family: 'robotothin', tahoma; font-size:36px; color: #d54405;}
 
 .howToReachMap h1{line-height: 52px; margin-bottom: 12px;}
 
-.howToReachMap .googleMapInfo{padding:15px; border: 1px solid #dadada;  }
+.howToReachMap .googleMapInfo{padding:15px; border: 1px solid #dadada; margin-bottom: 32px;}
 
 .howToReachMap .googleMapimg{max-width: 659px; max-height: 302px; margin-bottom: 20px;}
 
@@ -237,14 +241,42 @@ h1{font-family: 'robotothin', tahoma; font-size:36px; color: #d54405;}
 
 .googleMap .searchDistance lable{font-family: 'robotolight', tahoma; font-size: 14px; color: #444444; margin-right: 16px;}
 
-.googleMap .searchDistance select{padding: 9px; width: 140px; border: 1px solid #bbbbbb; border-radius: 4px;  margin-right: 12px; color: #000000; font-family: 'robotomedium', tahoma;}
+/*.googleMap .searchDistance .styledSelect select{
+}*/
 
-.searchDistance span{color: #000000; line-height: 17px; }
+.googleMap .searchDistance select{     
+    width: 140px;
+    float: left; 
+    padding: 9px;
+    border: 1px solid #bbbbbb; 
+    border-radius: 4px;  
+    margin-right: 12px; 
+    color: #000000; 
+    font-family: 'robotomedium', tahoma;}
 
-.searchDistance .fromKilometers{font-size: 17px;}
-.searchDistance .aWord{font-size: 11px;}
-.searchDistance .aTime{font-size: 16px;}
-.searchDistance .fromCity{font-size: 12px;}
+.searchDistance .distance{color: #444444; line-height: 14px; }
+
+.searchDistance .fromKilometers{color: #333333; font-size: 17px;}
+.searchDistance .aWord{color: #333333; font-size: 11px;}
+.searchDistance .aTime{color: #333333; font-size: 16px;}
+.searchDistance .fromCity{color: #333333; font-size: 12px;}
+
+.travelOption{margin-bottom: 55px;}
+
+.travelOption h2{margin-bottom: 18px; line-height: 45px; border-bottom:1px solid #DADADA;}
+
+.travelOption li{ border-bottom: 1px solid #f5f5f5; padding-bottom:18px; margin-bottom:20px;}
+
+.travelOption .diffrentOptionsImgWrap{ max-width: 75px; max-height: 75px; float: left; margin-right: 40px;}
+.travelOption .diffrentOptionsImgWrap img{ max-width: 75px; max-height: 75px;}
+
+.travelOption .travelOptionInfo{width:560px; float: left;}
+
+.travelOption .travelOptionInfo h2{line-height: 20px; margin-bottom: 18px;}
+
+.travelOption .travelOptionInfo p{line-height: 16px; font-family: tahoma; font-size: 11px;}
+
+.travelOption .travelOptionInfo a{font-family: arial; font-size: 11px; color: #1a4da2; background: url(../images/multipleDevices.png) no-repeat right center; padding-right: 18px;}
 
 ul li.clear{float: none;
  clear: both;}

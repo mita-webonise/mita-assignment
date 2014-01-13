@@ -237,7 +237,7 @@ li{list-style-type: none;}
 #ourServices ul .ourServicesList .imgWrapper{
 	width: 161px; 
 	height: 161px; 
-	background: url(../images/BlackBg.png) no-repeat; 
+	/*background: url(../images/BlackBg.png) no-repeat; */
 	margin: 0 auto; 
 	margin-bottom: 10px; }
 

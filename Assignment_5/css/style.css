@@ -152,7 +152,7 @@ h3{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
 
 #desinationHeading ul li a{ display: block; color:#1a4da2; line-height: 34px; padding: 0 15px;}
 
-#desinationHeading ul li a:hover{ display: block; color:#d54405; outline:1px solid #e4e4e4;  -moz-outline-radius:4px; -webkit-outline-radius:4px; line-height: 34px;}
+#desinationHeading ul li a:hover{ display: block; color:#d54405; outline:1px solid #e4e4e4;  -moz-outline-radius:4px; line-height: 34px;}
 
 .leftNavigation{width: 225px; float: left; margin-right: 25px; }
 

@@ -1,0 +1,364 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto-light-webfont.eot');
+    src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-light-webfont.woff') format('woff'),
+         url('../fonts/roboto-light-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('../fonts/roboto-thin-webfont.eot');
+    src: url('../fonts/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-thin-webfont.woff') format('woff'),
+         url('../fonts/roboto-thin-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../fonts/roboto-medium-webfont.eot');
+    src: url('../fonts/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-medium-webfont.woff') format('woff'),
+         url('../fonts/roboto-medium-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+	margin:0; 
+	padding:0;
+	}
+
+body{
+	font-family: 'robotoregular', arial;
+}
+
+img{border:none;}
+a{text-decoration: none;}
+h1, h2, h3, h4, h5, h6{font-weight: normal;}
+li{list-style-type: none;}
+
+h2, h3{font-family: 'robotothin', tahoma; color: #d54405;}
+
+h2{font-size:36px;}
+h3{font-size:24px;}
+h4{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
+
+.clear{clear:both;}
+
+.container{
+    width:940px;
+    margin: 0 auto;
+    }
+
+#header{margin-top: 60px; border-bottom: 1px solid #e4e4e4; margin-bottom: 12px; height: 46px;}
+
+#header #logo{
+    width:285px; 
+    height:30px; 
+    display: block; 
+    float:left; 
+    background:url(../images/logo.png) no-repeat;}
+
+#header .navigationSearchwrap{float: right; margin-top: 9px;}
+
+#header .navigationSearchwrap ul{float: left; }
+#header .navigationSearchwrap ul li{
+    font-family:'robotolight', tahoma; 
+    font-size: 15px; 
+    float: left; 
+    margin-right: 37px; 
+    line-height: 30px; }
+
+#header .navigationSearchwrap ul li a{ display: block; color:#1a4da2;}
+
+#header .navigationSearchwrap ul li a:hover, #header .navigationSearchwrap ul li a.active{ color:#000000;}
+
+#header .navigationSearchwrap .searchbtn{float: left; width: 170px;}
+
+#header .navigationSearchwrap .searchbtn .searchfeild{
+    width:128px; 
+    line-height:15px; 
+    padding:7px 10px 7px 30px; 
+    background: url(../images/searchIcon.png) no-repeat 7px center; 
+    font-family: tahoma; 
+    font-size: 11px; 
+    border: 1px solid #bbbbbb; 
+    border-radius: 4px; }
+
+.pageLocation {
+    font-family: tahoma; 
+    font-size: 11px; 
+    line-height: 11px; 
+    color: #1a4da2; 
+    margin-bottom: 48px; }
+
+.pageLocation ul{height: 15px;}
+
+.pageLocation li{float: left;
+    background: url(../images/pageLocationBullate.png) no-repeat right center; 
+    padding-right: 8px; 
+    margin-right: 10px;}
+
+.pageLocation li a{
+    color: #1a4da2; 
+    }
+
+.pageLocation li a:hover{color: #d54405; } 
+
+.pageLocation li a:active, .pageLocation li a.active{color: #000000; font-weight: bold;}
+
+.pageLocation .BgNone{
+    color: #1a4da2; 
+    background: none; 
+    padding-right: 8px;}
+
+#desinationHeading{ 
+    height: 53px;
+    border-bottom:29px; 
+    border-bottom: 1px solid #e4e4e4; 
+    padding-bottom: 12px;
+    margin-bottom:29px; }
+
+#desinationHeading .heading{line-height: 53px; float:left;}
+
+#desinationHeading .heading .profilePic{max-width: 53px; max-height: 53px; float: left; margin-right: 15px;}
+
+#desinationHeading .heading img{max-width: 53px; max-height: 53px;}
+
+#desinationHeading .heading h2{float:left; line-height: 53px;}
+
+#desinationHeading ul{float: right; margin-top: 20px;}
+
+#desinationHeading ul li{
+    font-family:'robotolight', tahoma; 
+    font-size: 15px; 
+    float: left;     
+    line-height: 34px;
+    border-radius: 4px;
+    margin-right: 5px;
+    }
+
+#desinationHeading ul li a{ 
+    display: block; 
+    color:#1a4da2; 
+    line-height: 34px; 
+    padding: 0 15px;}
+
+#desinationHeading ul li a:hover, #desinationHeading ul li a.active{ 
+    display: block; 
+    padding: 0 14px; 
+    color:#d54405; 
+    border:1px solid #e4e4e4; 
+    border-radius:4px;  
+    line-height: 32px;}
+
+.leftNavigation{width: 225px; float: left; margin-right: 25px; padding-top: 10px; }
+
+.leftNavigation li{margin-bottom: 13px;}
+
+.leftNavigation li:hover{margin-bottom: 12px;}
+
+.leftNavigation li a{display: block; border-bottom: 1px solid #dddddd; margin-bottom:2px;}
+
+.leftNavigation li a:hover, .leftNavigation li a.active{
+    border-bottom:2px solid #d54405; 
+    margin-bottom:2px;
+    }
+
+.leftNavigation li span{display: block;}
+
+.leftNavigation li a .HowToReach, .leftNavigation li a .WhereToStay, .leftNavigation li a .GettingAround, .leftNavigation li a .HolidayPackages, .leftNavigation li a .ImportantInfo, .leftNavigation li a .TravelChecklist {
+    width: 25px; 
+    height: 28px; 
+    display: block;
+    float: left;
+    margin-top: 3px;
+    margin-right: 15px;} 
+
+.leftNavigation li a .HowToReach{background: url(../images/icon1-HowToReach.png) no-repeat; cursor: pointer;}
+.leftNavigation li a:hover .HowToReach, .leftNavigation li a.active .HowToReach {background: url(../images/icon1-HowToReachHover.png) no-repeat; cursor: pointer;}
+
+.leftNavigation li a .WhereToStay{background: url(../images/icon2-WhereToStay.png) no-repeat; cursor: pointer;}
+.leftNavigation li a:hover .WhereToStay{background: url(../images/icon2-WhereToStayHover.png) no-repeat; cursor: pointer;}
+
+.leftNavigation li a .GettingAround{background: url(../images/icon3-GettingAround.png) no-repeat; cursor: pointer;}
+.leftNavigation li a:hover .GettingAround{background: url(../images/icon3-GettingAroundHover.png) no-repeat; cursor: pointer;}
+
+.leftNavigation li a .HolidayPackages{background: url(../images/icon4-HolidayPackages.png) no-repeat; cursor: pointer;}
+.leftNavigation li a:hover .HolidayPackages{background: url(../images/icon4-HolidayPackagesHover.png) no-repeat; cursor: pointer;}
+
+.leftNavigation li a .ImportantInfo{background: url(../images/icon5-ImportantInfo.png) no-repeat; cursor: pointer;}
+.leftNavigation li a:hover .ImportantInfo{background: url(../images/icon5-ImportantInfoHover.png) no-repeat; cursor: pointer;}
+
+.leftNavigation li a .TravelChecklist{background: url(../images/icon6-TravelChecklist.png) no-repeat; cursor: pointer;}
+.leftNavigation li a:hover .TravelChecklist{background: url(../images/icon6-TravelChecklistHover.png) no-repeat; cursor: pointer;}
+
+
+.leftNavigation li a .infowrap{
+    display: block;
+    width:175px; 
+    float:left; 
+    } 
+
+.leftNavigation li a .infowrap .mainTitle, .leftNavigation li a .infowrap .subTitle{
+    display: block; 
+    float: left; 
+    font-family:'robotolight', tahoma; 
+    cursor: pointer;}
+
+.leftNavigation li a .infowrap .subTitle{
+    margin-bottom: 15px;
+}
+
+.leftNavigation li a .infowrap .mainTitle{
+    font-size: 15px; 
+    color: #1a4da2;
+    display: block;
+    line-height: 20px;}
+
+/*.leftNavigation .infowrap .mainTitle a{
+    font-size: 15px;
+    color: #1a4da2; 
+    line-height: 20px;}*/
+
+.leftNavigation li a:hover .infowrap .mainTitle, .leftNavigation li a.active .infowrap .mainTitle {
+    font-size: 17px;
+    color: #d54405; 
+    line-height: 20px;
+    cursor: pointer;}
+
+.leftNavigation li a .infowrap .subTitle{
+    font-size: 12px; 
+    color: #878787;
+    line-height: 18px;}
+
+/*.leftNavigation .infowrap .subTitle a{
+    font-size: 12px; 
+    color: #878787;}*/
+
+.leftNavigation li a:hover .infowrap .subTitle, .leftNavigation li a.active .infowrap .subTitle{
+    font-size: 12px; 
+    color: #000000;
+    cursor: pointer;
+    }
+
+.howToReachMap{
+    width: 690px; 
+    float: left;}
+
+.howToReachMap h2{line-height: 52px; margin-bottom: 12px;}
+
+.howToReachMap .googleMapInfo{padding:15px; border: 1px solid #dadada; margin-bottom: 32px;}
+
+.howToReachMap .googleMapimg{max-width: 659px; max-height: 302px; margin-bottom: 20px;}
+
+.howToReachMap .googleMapimg img{max-width: 659px; max-height: 302px;}
+
+.howToReachMap .searchDistance{margin-bottom:6px;}
+
+.googleMap .searchDistance lable{font-family: 'robotolight', tahoma; font-size: 14px; color: #444444; margin-right: 16px;}
+
+
+.howToReachMap{
+    width: 690px; 
+    float: left;}
+
+.howToReachMap h2{line-height: 52px; margin-bottom: 12px;}
+
+.howToReachMap .googleMapInfo{padding:15px; border: 1px solid #dadada; margin-bottom: 32px;}
+
+.howToReachMap .googleMapimg{max-width: 659px; max-height: 302px; margin-bottom: 20px;}
+
+.howToReachMap .googleMapimg img{max-width: 659px; max-height: 302px;}
+
+.howToReachMap .searchDistance{margin-bottom:6px;}
+
+.googleMap .searchDistance lable{font-family: 'robotolight', tahoma; font-size: 14px; color: #444444; margin-right: 16px;}
+
+/*.googleMapInfo .searchDistance .styleSelect{
+    width: 140px;
+    height: 25px;
+    float: left; 
+    font-family: 'robotomedium', tahoma;
+    margin-right: 12px;
+    border: 1px solid #bbbbbb; 
+    border-radius: 4px; 
+    color: #000000;
+}*/
+
+.googleMapInfo .searchDistance .styleSelect{
+    width: 140px;
+    height: 25px;
+    float: left;
+    position: relative; 
+    margin-right: 12px;
+    }
+
+.googleMapInfo .searchDistance .styleSelect .selectBox{     
+    width: 140px;
+    height: 25px;
+    float: left; 
+    font-family: 'robotomedium', tahoma;
+    margin-right: 12px;
+    border: 1px solid #bbbbbb; 
+    border-radius: 4px; 
+    color: #000000;
+    position: relative; 
+   }
+
+.googleMapInfo .searchDistance .styleSelect .selectBtn{
+    width:27px;
+    height: 23px;
+    background:#ffffff url(../images/dropDownBullet.png) no-repeat center center; 
+    position:absolute; 
+    top: 1px;
+    right:1px;
+    border: 0;
+    border-top-right-radius: 4px; 
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+    }
+
+.searchDistance .distance{font-family: 'robotolight', tahoma; font-size: 14px; display:block; float:left; margin-right:16px; color: #444444; line-height:25px; }
+
+.searchDistance .fromKilometers{display:block; float:left; color: #333333; font-size: 17px; line-height:25px; margin-right: 5px;}
+.searchDistance .aWord{display:block; float:left; color: #333333; font-size: 11px; line-height:29px; margin-right: 5px;}
+.searchDistance .aTime{display:block; float:left; color: #333333; font-size: 16px; line-height:25px; margin-right: 5px;}
+.searchDistance .fromCity{display:block; float:left; color: #333333; font-size: 12px; line-height:28px;}
+
+.travelOption{margin-bottom: 55px;}
+
+.travelOption h3{margin-bottom: 18px; line-height: 45px; border-bottom:1px solid #DADADA;}
+
+.travelOption li{ border-bottom: 1px solid #f5f5f5; padding-bottom:18px; margin-bottom:20px;}
+
+.travelOption .diffrentOptionsImgWrap{ max-width: 75px; max-height: 75px; float: left; margin-right: 40px;}
+.travelOption .diffrentOptionsImgWrap img{ max-width: 75px; max-height: 75px;}
+
+.travelOption .travelOptionInfo{width:560px; float: left;}
+
+.travelOption .travelOptionInfo h2{line-height: 20px; margin-bottom: 18px;}
+
+.travelOption .travelOptionInfo p{line-height: 16px; font-family: tahoma; font-size: 11px;}
+
+.travelOption .travelOptionInfo a{font-family: arial; font-size: 11px; color: #1a4da2; background: url(../images/multipleDevices.png) no-repeat right center; padding-right: 18px;}
+
+ul li.clear{float: none;
+ clear: both;}

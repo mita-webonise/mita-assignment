@@ -50,33 +50,54 @@ body{
 }
 
 img{border:none;}
+
 a{text-decoration: none;}
+
 h1, h2, h3, h4, h5, h6{font-weight: normal;}
+
 li{list-style-type: none;}
 
-h2, h3{font-family: 'robotothin', tahoma; color: #d54405;}
+h2, h3{
+    font-family: 'robotothin', tahoma; 
+    color: #d54405;
+}
 
 h2{font-size:36px;}
+
 h3{font-size:24px;}
-h4{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
+
+h4{
+    font-family: 'robotolight', tahoma; 
+    color:#000000; 
+    font-size:20px;
+}
 
 .clear{clear:both;}
 
 .container{
     width:940px;
     margin: 0 auto;
-    }
+}
 
-#header{margin-top: 60px; border-bottom: 1px solid #e4e4e4; margin-bottom: 12px; height: 46px;}
+#header{
+    margin-top: 60px; 
+    border-bottom: 1px solid #e4e4e4; 
+    margin-bottom: 12px; 
+    height: 46px;
+}
 
 #header #logo{
     width:285px; 
     height:30px; 
     display: block; 
     float:left; 
-    background:url(../images/logo.png) no-repeat;}
+    background:url(../images/logo.png) no-repeat;
+}
 
-#header .navigationSearchwrap{float: right; margin-top: 9px;}
+#header .navigationSearchwrap{
+    float: right; 
+    margin-top: 9px;
+}
 
 #header .navigationSearchwrap ul{float: left; }
 #header .navigationSearchwrap ul li{
@@ -84,13 +105,17 @@ h4{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
     font-size: 15px; 
     float: left; 
     margin-right: 37px; 
-    line-height: 30px; }
+    line-height: 30px; 
+}
 
 #header .navigationSearchwrap ul li a{ display: block; color:#1a4da2;}
 
 #header .navigationSearchwrap ul li a:hover, #header .navigationSearchwrap ul li a.active{ color:#000000;}
 
-#header .navigationSearchwrap .searchbtn{float: left; width: 170px;}
+#header .navigationSearchwrap .searchbtn{
+    float: left; 
+    width: 170px;
+}
 
 #header .navigationSearchwrap .searchbtn .searchfeild{
     width:128px; 
@@ -100,25 +125,28 @@ h4{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
     font-family: tahoma; 
     font-size: 11px; 
     border: 1px solid #bbbbbb; 
-    border-radius: 4px; }
+    border-radius: 4px; 
+}
 
 .pageLocation {
     font-family: tahoma; 
     font-size: 11px; 
     line-height: 11px; 
     color: #1a4da2; 
-    margin-bottom: 48px; }
+    margin-bottom: 48px; 
+}
 
 .pageLocation ul{height: 15px;}
 
 .pageLocation li{float: left;
     background: url(../images/pageLocationBullate.png) no-repeat right center; 
     padding-right: 8px; 
-    margin-right: 10px;}
+    margin-right: 10px;
+}
 
 .pageLocation li a{
     color: #1a4da2; 
-    }
+}
 
 .pageLocation li a:hover{color: #d54405; } 
 
@@ -127,24 +155,40 @@ h4{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
 .pageLocation .BgNone{
     color: #1a4da2; 
     background: none; 
-    padding-right: 8px;}
+    padding-right: 8px;
+}
 
 #desinationHeading{ 
     height: 53px;
     border-bottom:29px; 
     border-bottom: 1px solid #e4e4e4; 
     padding-bottom: 12px;
-    margin-bottom:29px; }
+    margin-bottom:29px; 
+}
 
 #desinationHeading .heading{line-height: 53px; float:left;}
 
-#desinationHeading .heading .profilePic{max-width: 53px; max-height: 53px; float: left; margin-right: 15px;}
+#desinationHeading .heading .profilePic{
+    max-width: 53px; 
+    max-height: 53px; 
+    float: left; 
+    margin-right: 15px;
+}
 
-#desinationHeading .heading img{max-width: 53px; max-height: 53px;}
+#desinationHeading .heading img{
+    max-width: 53px; 
+    max-height: 53px;
+}
 
-#desinationHeading .heading h2{float:left; line-height: 53px;}
+#desinationHeading .heading h2{
+    float:left; 
+    line-height: 53px;
+}
 
-#desinationHeading ul{float: right; margin-top: 20px;}
+#desinationHeading ul{
+    float: right; 
+    margin-top: 20px;
+}
 
 #desinationHeading ul li{
     font-family:'robotolight', tahoma; 
@@ -153,13 +197,14 @@ h4{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
     line-height: 34px;
     border-radius: 4px;
     margin-right: 5px;
-    }
+}
 
 #desinationHeading ul li a{ 
     display: block; 
     color:#1a4da2; 
     line-height: 34px; 
-    padding: 0 15px;}
+    padding: 0 15px;
+}
 
 #desinationHeading ul li a:hover, #desinationHeading ul li a.active{ 
     display: block; 
@@ -167,48 +212,90 @@ h4{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
     color:#d54405; 
     border:1px solid #e4e4e4; 
     border-radius:4px;  
-    line-height: 32px;}
+    line-height: 32px;
+}
 
-.leftNavigation{width: 225px; float: left; margin-right: 25px; padding-top: 10px; }
+.leftNavigation{
+    width: 225px; 
+    float: left; 
+    margin-right: 25px; 
+    padding-top: 10px; 
+}
 
 .leftNavigation li{margin-bottom: 13px;}
 
 .leftNavigation li:hover{margin-bottom: 12px;}
 
-.leftNavigation li a{display: block; border-bottom: 1px solid #dddddd; margin-bottom:2px;}
+.leftNavigation li a{
+    display: block; 
+    border-bottom: 1px solid #dddddd; 
+    margin-bottom:2px;
+}
 
 .leftNavigation li a:hover, .leftNavigation li a.active{
     border-bottom:2px solid #d54405; 
     margin-bottom:2px;
-    }
+}
 
 .leftNavigation li span{display: block;}
 
-.leftNavigation li a .HowToReach, .leftNavigation li a .WhereToStay, .leftNavigation li a .GettingAround, .leftNavigation li a .HolidayPackages, .leftNavigation li a .ImportantInfo, .leftNavigation li a .TravelChecklist {
+.icon{
     width: 25px; 
     height: 28px; 
     display: block;
     float: left;
     margin-top: 3px;
-    margin-right: 15px;} 
+    margin-right: 15px;
+    cursor: pointer;
+} 
 
-.leftNavigation li a .HowToReach{background: url(../images/icon1-HowToReach.png) no-repeat; cursor: pointer;}
-.leftNavigation li a:hover .HowToReach, .leftNavigation li a.active .HowToReach {background: url(../images/icon1-HowToReachHover.png) no-repeat; cursor: pointer;}
+.leftNavigation li a .HowToReach{
+    background: url(../images/icon1-HowToReach.png) no-repeat;
+}
+.leftNavigation li a:hover .HowToReach, .leftNavigation li a.active .HowToReach {
+    background: url(../images/icon1-HowToReachHover.png) no-repeat; 
+    cursor: pointer;
+}
 
-.leftNavigation li a .WhereToStay{background: url(../images/icon2-WhereToStay.png) no-repeat; cursor: pointer;}
-.leftNavigation li a:hover .WhereToStay{background: url(../images/icon2-WhereToStayHover.png) no-repeat; cursor: pointer;}
+.leftNavigation li a .WhereToStay{
+    background: url(../images/icon2-WhereToStay.png) no-repeat;
+}
+.leftNavigation li a:hover .WhereToStay{
+    background: url(../images/icon2-WhereToStayHover.png) no-repeat; 
+    cursor: pointer;
+}
 
-.leftNavigation li a .GettingAround{background: url(../images/icon3-GettingAround.png) no-repeat; cursor: pointer;}
-.leftNavigation li a:hover .GettingAround{background: url(../images/icon3-GettingAroundHover.png) no-repeat; cursor: pointer;}
+.leftNavigation li a .GettingAround{
+    background: url(../images/icon3-GettingAround.png) no-repeat;
+}
+.leftNavigation li a:hover .GettingAround{
+    background: url(../images/icon3-GettingAroundHover.png) no-repeat; 
+    cursor: pointer;
+}
 
-.leftNavigation li a .HolidayPackages{background: url(../images/icon4-HolidayPackages.png) no-repeat; cursor: pointer;}
-.leftNavigation li a:hover .HolidayPackages{background: url(../images/icon4-HolidayPackagesHover.png) no-repeat; cursor: pointer;}
+.leftNavigation li a .HolidayPackages{
+    background: url(../images/icon4-HolidayPackages.png) no-repeat;
+}
+.leftNavigation li a:hover .HolidayPackages{
+    background: url(../images/icon4-HolidayPackagesHover.png) no-repeat; 
+    cursor: pointer;
+}
 
-.leftNavigation li a .ImportantInfo{background: url(../images/icon5-ImportantInfo.png) no-repeat; cursor: pointer;}
-.leftNavigation li a:hover .ImportantInfo{background: url(../images/icon5-ImportantInfoHover.png) no-repeat; cursor: pointer;}
+.leftNavigation li a .ImportantInfo{
+    background: url(../images/icon5-ImportantInfo.png) no-repeat;
+}
+.leftNavigation li a:hover .ImportantInfo{
+    background: url(../images/icon5-ImportantInfoHover.png) no-repeat; 
+    cursor: pointer;
+}
 
-.leftNavigation li a .TravelChecklist{background: url(../images/icon6-TravelChecklist.png) no-repeat; cursor: pointer;}
-.leftNavigation li a:hover .TravelChecklist{background: url(../images/icon6-TravelChecklistHover.png) no-repeat; cursor: pointer;}
+.leftNavigation li a .TravelChecklist{
+    background: url(../images/icon6-TravelChecklist.png) no-repeat;
+}
+.leftNavigation li a:hover .TravelChecklist{
+    background: url(../images/icon6-TravelChecklistHover.png) no-repeat; 
+    cursor: pointer;
+}
 
 
 .leftNavigation li a .infowrap{
@@ -221,7 +308,8 @@ h4{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
     display: block; 
     float: left; 
     font-family:'robotolight', tahoma; 
-    cursor: pointer;}
+    cursor: pointer;
+}
 
 .leftNavigation li a .infowrap .subTitle{
     margin-bottom: 15px;
@@ -231,7 +319,8 @@ h4{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
     font-size: 15px; 
     color: #1a4da2;
     display: block;
-    line-height: 20px;}
+    line-height: 20px;
+}
 
 /*.leftNavigation .infowrap .mainTitle a{
     font-size: 15px;
@@ -242,12 +331,14 @@ h4{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
     font-size: 17px;
     color: #d54405; 
     line-height: 20px;
-    cursor: pointer;}
+    cursor: pointer;
+}
 
 .leftNavigation li a .infowrap .subTitle{
     font-size: 12px; 
     color: #878787;
-    line-height: 18px;}
+    line-height: 18px;
+}
 
 /*.leftNavigation .infowrap .subTitle a{
     font-size: 12px; 
@@ -257,51 +348,66 @@ h4{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
     font-size: 12px; 
     color: #000000;
     cursor: pointer;
-    }
+}
 
 .howToReachMap{
     width: 690px; 
-    float: left;}
+    float: left;
+}
 
-.howToReachMap h2{line-height: 52px; margin-bottom: 12px;}
+.howToReachMap h2{
+    line-height: 52px; 
+    margin-bottom: 12px;
+}
 
-.howToReachMap .googleMapInfo{padding:15px; border: 1px solid #dadada; margin-bottom: 32px;}
+.howToReachMap .googleMapInfo{
+    padding:15px; 
+    border: 1px solid #dadada;
+    margin-bottom: 32px;
+}
 
-.howToReachMap .googleMapimg{max-width: 659px; max-height: 302px; margin-bottom: 20px;}
+.howToReachMap .googleMapimg{
+    max-width: 659px; 
+    max-height: 302px; 
+    margin-bottom: 20px;
+}
 
-.howToReachMap .googleMapimg img{max-width: 659px; max-height: 302px;}
+.howToReachMap .googleMapimg img{
+    max-width: 659px; 
+    max-height: 302px;
+}
 
 .howToReachMap .searchDistance{margin-bottom:6px;}
-
-.googleMap .searchDistance lable{font-family: 'robotolight', tahoma; font-size: 14px; color: #444444; margin-right: 16px;}
 
 
 .howToReachMap{
     width: 690px; 
-    float: left;}
+    float: left;
+}
 
-.howToReachMap h2{line-height: 52px; margin-bottom: 12px;}
+.howToReachMap h2{
+    line-height: 52px; 
+    margin-bottom: 12px;
+}
 
-.howToReachMap .googleMapInfo{padding:15px; border: 1px solid #dadada; margin-bottom: 32px;}
+.howToReachMap .googleMapInfo{
+    padding:15px; 
+    border: 1px solid #dadada; 
+    margin-bottom: 32px;
+}
 
-.howToReachMap .googleMapimg{max-width: 659px; max-height: 302px; margin-bottom: 20px;}
+.howToReachMap .googleMapimg{
+    max-width: 659px;
+    max-height: 302px; 
+    margin-bottom: 20px;
+}
 
-.howToReachMap .googleMapimg img{max-width: 659px; max-height: 302px;}
+.howToReachMap .googleMapimg img{
+    max-width: 659px; 
+    max-height: 302px;
+}
 
 .howToReachMap .searchDistance{margin-bottom:6px;}
-
-.googleMap .searchDistance lable{font-family: 'robotolight', tahoma; font-size: 14px; color: #444444; margin-right: 16px;}
-
-/*.googleMapInfo .searchDistance .styleSelect{
-    width: 140px;
-    height: 25px;
-    float: left; 
-    font-family: 'robotomedium', tahoma;
-    margin-right: 12px;
-    border: 1px solid #bbbbbb; 
-    border-radius: 4px; 
-    color: #000000;
-}*/
 
 .googleMapInfo .searchDistance .styleSelect{
     width: 140px;
@@ -309,7 +415,7 @@ h4{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
     float: left;
     position: relative; 
     margin-right: 12px;
-    }
+}
 
 .googleMapInfo .searchDistance .styleSelect .selectBox{     
     width: 140px;
@@ -321,7 +427,7 @@ h4{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
     border-radius: 4px; 
     color: #000000;
     position: relative; 
-   }
+}
 
 .googleMapInfo .searchDistance .styleSelect .selectBtn{
     width:27px;
@@ -334,31 +440,103 @@ h4{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
     border-top-right-radius: 4px; 
     border-bottom-right-radius: 4px;
     cursor: pointer;
-    }
+}
 
-.searchDistance .distance{font-family: 'robotolight', tahoma; font-size: 14px; display:block; float:left; margin-right:16px; color: #444444; line-height:25px; }
+.searchDistance .distance{
+    font-family: 'robotolight', tahoma; 
+    font-size: 14px; 
+    display:block; 
+    float:left; 
+    margin-right:16px; 
+    color: #444444; 
+    line-height:25px; 
+}
 
-.searchDistance .fromKilometers{display:block; float:left; color: #333333; font-size: 17px; line-height:25px; margin-right: 5px;}
-.searchDistance .aWord{display:block; float:left; color: #333333; font-size: 11px; line-height:29px; margin-right: 5px;}
-.searchDistance .aTime{display:block; float:left; color: #333333; font-size: 16px; line-height:25px; margin-right: 5px;}
-.searchDistance .fromCity{display:block; float:left; color: #333333; font-size: 12px; line-height:28px;}
+.searchDistance .fromKilometers{
+    display:block; 
+    float:left; 
+    color: #333333; 
+    font-size: 17px; 
+    line-height:25px; 
+    margin-right: 5px;
+}
+
+.searchDistance .aWord{
+    display:block; 
+    float:left; 
+    color: #333333; 
+    font-size: 11px; 
+    line-height:29px; 
+    margin-right: 5px;
+}
+
+.searchDistance .aTime{
+    display:block; 
+    float:left; 
+    color: #333333; 
+    font-size: 16px; 
+    line-height:25px; 
+    margin-right: 5px;
+}
+
+.searchDistance .fromCity{
+    display:block; 
+    float:left; 
+    color: #333333; 
+    font-size: 12px; 
+    line-height:28px;
+}
 
 .travelOption{margin-bottom: 55px;}
 
-.travelOption h3{margin-bottom: 18px; line-height: 45px; border-bottom:1px solid #DADADA;}
+.travelOption h3{
+    margin-bottom: 18px; 
+    line-height: 45px; 
+    border-bottom:1px solid #DADADA;
+}
 
-.travelOption li{ border-bottom: 1px solid #f5f5f5; padding-bottom:18px; margin-bottom:20px;}
+.travelOption li{ 
+    border-bottom: 1px solid #f5f5f5; 
+    padding-bottom:18px; 
+    margin-bottom:20px;
+}
 
-.travelOption .diffrentOptionsImgWrap{ max-width: 75px; max-height: 75px; float: left; margin-right: 40px;}
-.travelOption .diffrentOptionsImgWrap img{ max-width: 75px; max-height: 75px;}
+.travelOption .diffrentOptionsImgWrap{
+    max-width: 75px; 
+    max-height: 75px; 
+    float: left; 
+    margin-right: 40px;
+}
 
-.travelOption .travelOptionInfo{width:560px; float: left;}
+.travelOption .diffrentOptionsImgWrap img{ 
+    max-width: 75px; 
+    max-height: 75px;
+}
 
-.travelOption .travelOptionInfo h2{line-height: 20px; margin-bottom: 18px;}
+.travelOption .travelOptionInfo{
+    width:560px; 
+    float: left;}
 
-.travelOption .travelOptionInfo p{line-height: 16px; font-family: tahoma; font-size: 11px;}
+.travelOption .travelOptionInfo h2{
+    line-height: 20px; 
+    margin-bottom: 18px;
+}
 
-.travelOption .travelOptionInfo a{font-family: arial; font-size: 11px; color: #1a4da2; background: url(../images/multipleDevices.png) no-repeat right center; padding-right: 18px;}
+.travelOption .travelOptionInfo p{
+    line-height: 16px; 
+    font-family: tahoma; 
+    font-size: 11px;
+}
 
-ul li.clear{float: none;
- clear: both;}
+.travelOption .travelOptionInfo a{
+    font-family: arial; 
+    font-size: 11px; 
+    color: #1a4da2; 
+    background: url(../images/multipleDevices.png) no-repeat right center; 
+    padding-right: 18px;
+}
+
+ul li.clear{
+    float: none;
+    clear: both;
+}

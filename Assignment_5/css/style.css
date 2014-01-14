@@ -121,7 +121,9 @@ h3{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
     background: none; 
     padding-right: 8px;}
 
-.pageLocation a:hover, .pageLocation a:active{color: #000000; font-weight: bold;}
+.pageLocation a:hover{color: #d54405; } 
+
+.pageLocation a:active{color: #000000; font-weight: bold;}
 
 #desinationHeading{ 
     height: 53px;
@@ -150,7 +152,7 @@ h3{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
 
 #desinationHeading ul li a{ display: block; color:#1a4da2; line-height: 34px; padding: 0 15px;}
 
-#desinationHeading ul li a:hover{ display: block; color:#d54405; border:1px solid #e4e4e4; border-radius: 4px; line-height: 34px;}
+#desinationHeading ul li a:hover{ display: block; color:#d54405; outline:1px solid #e4e4e4;  -moz-outline-radius:4px; -webkit-outline-radius:4px; line-height: 34px;}
 
 .leftNavigation{width: 225px; float: left; margin-right: 25px; }
 
@@ -237,29 +239,62 @@ h3{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
 
 .howToReachMap .googleMapimg{max-width: 659px; max-height: 302px; margin-bottom: 20px;}
 
-.howToReachMap .googleMapimg .searchDistance{ margin-bottom: 25px;}
+.howToReachMap .googleMapimg img{max-width: 659px; max-height: 302px;}
+
+.howToReachMap .searchDistance{margin-bottom:6px;}
 
 .googleMap .searchDistance lable{font-family: 'robotolight', tahoma; font-size: 14px; color: #444444; margin-right: 16px;}
 
-/*.googleMap .searchDistance .styledSelect select{
+/*.googleMapInfo .searchDistance .styleSelect{
+    width: 140px;
+    height: 25px;
+    float: left; 
+    font-family: 'robotomedium', tahoma;
+    margin-right: 12px;
+    border: 1px solid #bbbbbb; 
+    border-radius: 4px; 
+    color: #000000;
 }*/
 
-.googleMap .searchDistance select{     
+.googleMapInfo .searchDistance .styleSelect{
     width: 140px;
+    height: 25px;
+    float: left;
+    position: relative; 
+    margin-right: 12px;
+    }
+
+.googleMapInfo .searchDistance .styleSelect .selectBox{     
+    width: 140px;
+    height: 25px;
     float: left; 
-    padding: 9px;
+    font-family: 'robotomedium', tahoma;
+    margin-right: 12px;
     border: 1px solid #bbbbbb; 
-    border-radius: 4px;  
-    margin-right: 12px; 
-    color: #000000; 
-    font-family: 'robotomedium', tahoma;}
+    border-radius: 4px; 
+    color: #000000;
+    position: relative; 
+   }
 
-.searchDistance .distance{color: #444444; line-height: 14px; }
+.googleMapInfo .searchDistance .styleSelect .selectBtn{
+    width:27px;
+    height: 23px;
+    background:#ffffff url(../images/dropDownBullet.png) no-repeat center center; 
+    position:absolute; 
+    top: 1px;
+    right:1px;
+    border: 0;
+    border-top-right-radius: 4px; 
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+    }
 
-.searchDistance .fromKilometers{color: #333333; font-size: 17px;}
-.searchDistance .aWord{color: #333333; font-size: 11px;}
-.searchDistance .aTime{color: #333333; font-size: 16px;}
-.searchDistance .fromCity{color: #333333; font-size: 12px;}
+.searchDistance .distance{font-family: 'robotolight', tahoma; font-size: 14px; display:block; float:left; margin-right:16px; color: #444444; line-height:25px; }
+
+.searchDistance .fromKilometers{display:block; float:left; color: #333333; font-size: 17px; line-height:25px; margin-right: 5px;}
+.searchDistance .aWord{display:block; float:left; color: #333333; font-size: 11px; line-height:29px; margin-right: 5px;}
+.searchDistance .aTime{display:block; float:left; color: #333333; font-size: 16px; line-height:25px; margin-right: 5px;}
+.searchDistance .fromCity{display:block; float:left; color: #333333; font-size: 12px; line-height:28px;}
 
 .travelOption{margin-bottom: 55px;}
 

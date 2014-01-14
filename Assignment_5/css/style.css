@@ -230,6 +230,8 @@ h3{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
 
 .leftNavigation{width: 225px; float: left; margin-right: 25px; }
 
+.leftNavigation li span{display: block;}
+
 .leftNavigation li a{border-bottom: 1px solid #dddddd; }
 
 .leftNavigation li a{display: block;}
@@ -265,7 +267,7 @@ h3{font-family: 'robotolight', tahoma; color:#000000; font-size:20px;}
 .leftNavigation li a .infowrap{
     display: block;
     width:175px; 
-    float:right; 
+    float:left; 
     padding-top:15px;
     } 
 

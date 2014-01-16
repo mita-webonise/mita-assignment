@@ -259,34 +259,41 @@ ul.courseDetails{
 
 .footer{
 	border-top: 1px solid #cecece;
-	line-height: 38px;  
+	font-size: 13px;
+	line-height: 13px;
 }
 
 .footer .footNavbar{
 	float: left; 
 }
 
+.footer .footNavbar ul{
+	overflow: hidden;
+}
+
 .footer .footNavbar ul li{
 	float: left;
 	margin-right: 15px;
-	font-size: 13px;
 	font-weight: bold;
 	color: #225588;
 }
 
 .footer .footNavbar ul li a{
 	color: #225588;
+	padding: 14px 0;
+	display: block;
 }
 
 .footer .footNavbar ul li a:hover{
+	display: block;
 	color: #222222;
 }
 
 .footer span{
 	display: block;
 	float: right;
-	font-size: 13px;
 	color: #888888;
+	padding: 14px 0;
 }
 
 ul li.clear{

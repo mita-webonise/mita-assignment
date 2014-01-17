@@ -45,7 +45,7 @@ h3{
 .headerShadow{
 	height: 10px;
 	background:url(../images/headerShadow.png) repeat-x;
-	margin-bottom:20px; 
+	margin-bottom:15px; 
 }
 
 #logo{
@@ -166,7 +166,7 @@ ul.courseDetails{
 	background: #ffffff;
 	border: 1px solid #cccccc;
 	border-radius: 4px;
-	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 
 }
 
@@ -223,7 +223,7 @@ ul.courseDetails{
 	border-bottom-right-radius: 4px;
 }
 
-.courseDetails .courseDetailsContainer .totalCourseCount .totalVideo{
+/*.courseDetails .courseDetailsContainer .totalCourseCount .totalVideo{
 	float: left;
 	padding-left: 28px;
 	margin-right: 21px;
@@ -235,9 +235,34 @@ ul.courseDetails{
 	float: left;
 	padding-left: 29px;
 	background: url(../images/notebookIcon.png) no-repeat left center;
+}*/
+
+.totalCourseCount .videoCourse, .totalCourseCount .pdfCourse{
+	float: left;
+	margin-right: 20px;
 }
 
-.totalVideo a, .totalpdf a{color: #888888;}
+.totalCourseCount .videoCourse .totalVideo, .totalCourseCount .pdfCourse .totalpdf{
+	width: 25px;
+	height: 23px;
+	display: block;
+	float: left;
+	margin-right: 5px;
+}
+
+.courseDetails .courseDetailsContainer .totalCourseCount .videoCourse .totalVideo{
+	background: url(../images/videoIcon.png) no-repeat;
+}
+
+.courseDetails .courseDetailsContainer .totalCourseCount .pdfCourse .totalpdf{
+	background: url(../images/notebookIcon.png) no-repeat;
+}
+
+.totalCourseCount a{
+	display: block;
+	float: left;
+	line-height:23px;
+	color: #888888;}
 
 .courseDetails .courseDetailsContainer .totalCourseCount .more{
 	display: block;

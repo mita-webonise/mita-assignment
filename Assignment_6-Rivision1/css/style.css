@@ -122,12 +122,15 @@ h3{
     cursor: pointer;
 }
 
+.breadCrum{
+	margin-bottom: 20px;
+}
+
 .breadCrum ul{
 	font-size: 15px;
 	line-height: 15px;
 	padding-bottom: 14px;
 	border-bottom: 1px solid #cecece;
-	margin-bottom: 20px;
 }
 
 .breadcrum li{

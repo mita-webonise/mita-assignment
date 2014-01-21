@@ -127,7 +127,6 @@ h2{
 .signinBtn, .getStartedBtn{
 	display: block;
 	float: left;
-	margin:8px 16px 0 0;
 	padding: 0 14px;
 	font-family: arial;
 	font-size: 13px;
@@ -141,6 +140,7 @@ h2{
 }
 
 .signinBtn{	
+	margin:8px 16px 0 0;
 	background: #33aaee;
 	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#81cbf5), to(#33aaee));
 	background: -webkit-linear-gradient(top, #81cbf5, #33aaee);
@@ -148,10 +148,25 @@ h2{
 }
 
 .getStartedBtn{
+	margin:8px 0 0 0;
 	background: #dd8800;
 	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#e7ab4a), to(#dd8800));
 	background: -webkit-linear-gradient(top, #e7ab4a, #dd8800);
 	background: -moz-linear-gradient(top, #e7ab4a, #dd8800);
+}
+
+.signinBtn:hover{	
+	background: #33aaee;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#33aaee), to(#81cbf5));
+	background: -webkit-linear-gradient(top, #33aaee, #81cbf5);
+	background: -moz-linear-gradient(top, #33aaee, #81cbf5);
+}
+
+.getStartedBtn:hover{
+	background: #dd8800;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#dd8800), to(#e7ab4a));
+	background: -webkit-linear-gradient(top, #dd8800, #e7ab4a);
+	background: -moz-linear-gradient(top, #dd8800, #e7ab4a);
 }
 
 .banner{
@@ -168,9 +183,9 @@ h2{
 
 .banner .bannerImgWrap{
 	width: 917px;
-	height: 291px;
-	background: url(../images/bannerVisualCopy.png) no-repeat left 36px;
-	margin-bottom: 12px;
+	height: 290px;
+	background: url(../images/bannerVisualCopy.png) no-repeat left 31px;
+	margin-bottom: 11px;
 }
 
 /*.banner .bannerImgWrap img{
@@ -200,7 +215,7 @@ h2{
 }
 
 .banner .bannerGetStartedWrap{
-	height: 60px;
+	height: 65px;
 	background: url(../images/signUpBgBorder.png) repeat-x left 31px;
 }
 
@@ -211,7 +226,7 @@ h2{
 	text-align: center;
 	font-size: 26px;
 	line-height: 26px;
-	padding: 15px 0;
+	padding: 18px 0;
 	border: 2px solid #0976b5;
 	border-radius: 40px;
 	box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.9), 0px 1px 6px rgba(0, 0, 0, 0.4);

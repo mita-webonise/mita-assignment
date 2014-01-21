@@ -1,0 +1,498 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff'),
+         url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.eot');
+    src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff'),
+         url('../fonts/roboto-bold-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('../fonts/roboto-thin-webfont.eot');
+    src: url('../fonts/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-thin-webfont.woff') format('woff'),
+         url('../fonts/roboto-thin-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rupeeregular';
+    src: url('../fonts/rupee-webfont.eot');
+    src: url('../fonts/rupee-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rupee-webfont.woff') format('woff'),
+         url('../fonts/rupee-webfont.ttf') format('truetype'),
+         url('../fonts/rupee-webfont.svg#rupeeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url(../images/body-bg.jpg) repeat;
+	color: #444444
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+img{
+	border: none;
+}
+
+.clear{
+	clear: both;
+}
+
+h1, h2{
+	font-family: 'robotothin';
+	color: #cf3e05;
+}
+
+h1{	
+	font-size: 22px;
+	line-height: 22px;
+}
+
+h2{
+	font-size: 18px;
+	line-height: 18px;
+}
+
+.container{
+	width: 980px;
+	margin: 0 auto;
+}
+
+
+#header{
+	/*height: 97px;*/
+	color: #3d6dc5; 
+	border-bottom: 3px solid #385daa;
+	margin-bottom: 20px;
+}
+
+.logo-upNavWrap{
+	margin: 5px 0 7px 0;
+}
+
+#logo{
+	width: 120px;
+	height: 52px;
+	float: left;
+	background: url(../images/makemytrip-logo.png) no-repeat;
+}
+
+.upNav{
+	float: right;
+}
+
+.upNav ul{
+	margin-bottom: 5px;
+	background: url(../images/booking.png) no-repeat;
+	padding-left: 27px;
+	overflow: hidden;
+}
+
+.upNav ul li{
+	float: left;
+	padding: 0 8px;
+	font-family: tahoma;
+	font-size:11px;
+	line-height: 20px;
+	border-right: 1px solid #dddee0;
+}
+
+.upNav ul li a{
+	display: block;
+	color: #3d6dc5;
+}
+
+.upNav ul li a:hover{
+	color: #d54405;
+}
+
+/*****************COUNTRY DROPDOWN**********************/
+
+.SelectCountry{
+	position: relative;
+}
+
+.country-dropdown{
+	width:43px;
+	display: block;
+	float: right;
+	height: 20px;
+	border: 1px solid #b3aeb0;
+	border-radius: 4px;
+	line-height: 20px;
+	color: #b3aeb0;
+	font-size: 16px;
+	padding:0 28px;
+	background: url(../images/IndiaFlag.png) no-repeat 8px center;
+	cursor: pointer;
+}
+
+.dropBullet {
+	content: '\25BC';
+	position: absolute;
+	right: 0px;
+	top: 1px;
+	width: 24px;
+	color: #b3aeb0;
+	text-align: center;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	background: url(../images/bullet.png) no-repeat center center;
+}
+
+.country-select 
+
+/*****************COUNTRY DROPDOWN ENDS**********************/
+
+.navigation{}
+
+.navigation .leftNav{
+	float: left;
+}
+
+.navigation .rightNav{
+	float: right;
+}
+
+.navigation ul{
+	font-family:'robotoregular', arial;
+	font-size: 12px;
+	color: #385daa;
+}
+
+.navigation ul li{
+	float: left;
+	line-height: 28px;
+	margin-right: 6px;
+	border: 1px solid #c3cde6;
+	border-bottom: 0px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	background: #ffffff;
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #F2F2F2),
+		color-stop(1, #FFFFFF));
+	background: -o-linear-gradient(bottom, #F2F2F2 0%, #FFFFFF 100%);
+	background: -moz-linear-gradient(bottom, #F2F2F2 0%, #FFFFFF 100%);
+	background: -webkit-linear-gradient(bottom, #F2F2F2 0%, #FFFFFF 100%);
+	background: -ms-linear-gradient(bottom, #F2F2F2 0%, #FFFFFF 100%);
+	background: linear-gradient(to bottom, #F2F2F2 0%, #FFFFFF 100%);
+}
+
+.navigation ul li:hover{
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #ffffff),
+		color-stop(1, #F2F2F2));
+	background: -o-linear-gradient(bottom, #ffffff 0%, #F2F2F2 100%);
+	background: -moz-linear-gradient(bottom, #ffffff 0%, #F2F2F2 100%);
+	background: -webkit-linear-gradient(bottom, #ffffff 0%, #F2F2F2 100%);
+	background: -ms-linear-gradient(bottom, #ffffff 0%, #F2F2F2 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #F2F2F2 100%);
+}
+
+.navigation ul li a{
+	display: block;
+	padding:0 12px;
+	color: #385daa;
+	text-align: center;
+}
+
+.navigation .rightNav ul li{
+	margin-right: 0;
+}
+
+.tooltip{
+   	display: inline;
+    position: relative;
+}
+		
+.tooltip:hover:after{
+    background: #ffd205;
+    background: rgba(255,210,5,1);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #333;
+    content: attr(title);
+    left: 0px;
+    padding: 5px 8px;
+    position: absolute;
+    z-index: 98;
+    width: 150%;
+}
+		
+.tooltip:hover:before{
+    border: solid;
+    border-color: #ffd205 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+/*****************Header ENDS**********************/
+
+.destinationSearchBox{
+	margin-bottom: 30px;
+}
+
+.destinationSearchBox h1{
+	margin-bottom: 11px;
+}
+
+.destinationInfo{
+	border: 1px solid #d6d6d6;
+	border-top: 3px solid #ffc136;
+	box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.1);
+	padding: 5px 15px;
+}
+
+.destinationSearchBox ul{
+	float: left;
+}
+
+.destinationSearchBox ul li{
+	float: left;
+	margin-right: 36px;
+	line-height: 38px;
+}
+
+.destinationSearchBox ul li .destinationTitle, .destinationSearchBox ul li .destinationDescription{
+	font-family: tahoma;
+	font-size: 11px;
+	line-height: 15px;
+	display: block;
+}
+
+.destinationSearchBox ul li .destinationTitle{
+	color: #2f2f2f;
+}
+
+.destinationSearchBox ul li .destinationDescription{
+	color: #cf3e05;
+}
+
+.destinationSearchBox ul li.rightSpaceBorder{
+	padding-right: 32px;
+	margin-right: 14px;
+	border-right: 1px solid #e5e5e5;
+}
+
+.destinationSearchBox a{
+	display: block;
+	float: right;
+	padding:5px 16px 5px 25px;
+	font-family: tahoma;
+	font-size: 16px;
+	color: #d54405;
+	line-height: 16px;
+	border: 1px solid #e89543;
+	border-radius: 5px;
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #fffdea),
+		color-stop(1, #fcf5c9));
+	background: -o-linear-gradient(bottom, #fffdea 0%, #fcf5c9 100%);
+	background: -moz-linear-gradient(bottom, #fffdea 0%, #fcf5c9 100%);
+	background: -webkit-linear-gradient(bottom, #fffdea 0%, #fcf5c9 100%);
+	background: -ms-linear-gradient(bottom, #fffdea 0%, #fcf5c9 100%);
+	background: linear-gradient(to bottom, #fffdea 0%, #fcf5c9 100%);
+	position: relative;
+}
+
+.destinationSearchBox a .expandIcon{
+	position: absolute;
+	left: 5px;
+	top: 6px;
+	width: 13px;
+	height: 13px;
+	border: 1px solid #f1ae7a;
+	font-family: tahoma;
+	font-size: 11px;
+	color: #f1ae7a;
+	text-align: center;
+	line-height: 11px;
+}
+
+
+/*****************ENDS**********************/
+
+.destinationDetails{
+	padding-bottom: 15px;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.destinationDetails ul{
+	margin-left: -15px;
+}
+
+.destinationDetails ul li{
+	width: 150px;
+	float: left;
+	margin-left: 15px;
+}
+
+.destinationDetailInfo{
+	width: 120px;
+	height: 190px;
+	border:1px solid #e2e0e0;
+	padding: 15px;
+	margin-bottom: 3px;
+}
+
+.destinationDetailInfo .detailInfoIcon{
+	width: 60px;
+	height: 45px;
+	margin: 0 auto;
+	margin-bottom: 16px;
+}
+
+.destinationDetailInfo .AirFairIcon{
+	background: url(../images/plane.png) no-repeat center center;
+}
+
+.destinationDetailInfo .hotelFairIcon{
+	background: url(../images/room.png) no-repeat center center;
+}
+
+.destinationDetailInfo .siteFairIcon{
+	background: url(../images/beach.png) no-repeat center center;
+}
+
+.destinationDetailInfo .carFairIcon{
+	background: url(../images/car.png) no-repeat center center;
+}
+
+.destinationDetailInfo .busFairIcon{
+	background: url(../images/bus.png) no-repeat center center;
+}
+
+.destinationDetailInfo .destinationInfoTitle{
+	font-family: 'robotoregular';
+	font-size: 15px;
+	line-height: 15px;
+	color: #385daa;
+	text-align: center;
+	margin-bottom: 7px;
+}
+
+.destinationDetailInfo .subDetails{
+	font-family: tahoma;
+	font-size: 11px;
+	line-height: 15px;
+	text-align: center;
+	color: #878787;
+}
+
+.subDetailsSpace{
+	margin-bottom: 25px;
+}
+
+.destinationDetailInfo .destinationCost{
+	font-family: tahoma;
+	font-size: 21px;
+	color: #cf3e05;
+	text-align: center;
+	bottom: 0;
+}
+
+.costfairIcon{
+	font-family: tahoma;
+	font-size: 21px;
+	color: #cf3e05;
+	bottom: 0;
+}
+
+.destinationDetails a{
+	width: 95px;
+	display: block;
+	margin: 0 auto;
+	font-family: tahoma;
+	font-size: 11px;
+	line-height: 26px;
+	color: #385daa;
+	text-align: center;
+	border: 1px solid #e9e8e8;
+	border-radius: 5px;
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #e9e8e8),
+		color-stop(1, #FFFFFF));
+	background: -o-linear-gradient(top, #e9e8e8 0%, #FFFFFF 100%);
+	background: -moz-linear-gradient(top, #e9e8e8 0%, #FFFFFF 100%);
+	background: -webkit-linear-gradient(top, #e9e8e8 0%, #FFFFFF 100%);
+	background: -ms-linear-gradient(top, #e9e8e8 0%, #FFFFFF 100%);
+	background: linear-gradient(to top, #e9e8e8 0%, #FFFFFF 100%);
+}
+
+
+
+/*****************ENDS**********************/
+
+.upNav ul li.clear{
+	float: none;
+	clear:both;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.upNav ul li.noBorder{
+	border-right:none;
+}
+
+ul li.clear{
+	float: none;
+	clear:both;
+	margin: 0;
+	padding: 0;
+	border: none;
+}

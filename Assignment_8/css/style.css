@@ -388,7 +388,7 @@ h3{
 .destinationDetails{
 	padding-bottom: 15px;
 	margin-bottom: 25px;
-	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.2);
 }
 
 .destinationDetails ul{
@@ -402,7 +402,7 @@ h3{
 }
 
 .destinationDetailInfo{
-	width: 120px;
+	width: 118px;
 	height: 190px;
 	border:1px solid #e2e0e0;
 	padding: 15px;
@@ -470,7 +470,7 @@ h3{
 }
 
 .costfairIcon{
-	font-family: tahoma;
+	font-family: 'rupeeregular';
 	font-size: 21px;
 	color: #cf3e05;
 	bottom: 0;

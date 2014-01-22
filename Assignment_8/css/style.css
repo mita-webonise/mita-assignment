@@ -249,6 +249,18 @@ h3{
 	padding:0 12px;
 	color: #385daa;
 	text-align: center;
+	position: relative;
+}
+
+.navigation ul li a .mainNavBullet{
+	width: 10px;
+	height: 10px;
+	display: block;
+	float: right;
+	background: url(../images/mainNavBullet.png) no-repeat;
+	position: relative;
+	top: 12px;
+	right: -5px;
 }
 
 .navigation .rightNav ul li{
@@ -433,7 +445,11 @@ h3{
 	margin-bottom: 7px;
 }
 
-.subDetails{
+.destinationDetailInfo .subDetailsfirst{
+	min-height: 30px;
+}
+
+.destinationDetailInfo .subDetailsfirst, .subDetails{
 	font-family: tahoma;
 	font-size: 11px;
 	line-height: 15px;
@@ -458,6 +474,15 @@ h3{
 	font-size: 21px;
 	color: #cf3e05;
 	bottom: 0;
+}
+
+.destinationCostStrike{
+	font-family: tahoma;
+	font-size: 15px;
+	color: #cf3e05;
+	text-align: center;
+	bottom: 0;
+	text-decoration: line-through;
 }
 
 .detailBtn{

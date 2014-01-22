@@ -56,7 +56,8 @@
 
 body{
 	background: url(../images/body-bg.jpg) repeat;
-	color: #444444
+	color: #444444;
+	margin-bottom: 100px;
 }
 
 li{
@@ -78,6 +79,7 @@ img{
 h1, h2{
 	font-family: 'robotothin';
 	color: #cf3e05;
+	font-weight: normal;
 }
 
 h1{	
@@ -88,6 +90,14 @@ h1{
 h2{
 	font-size: 18px;
 	line-height: 18px;
+}
+
+h3{
+	font-family: 'robotoregular';
+	font-size: 14px;
+	line-height: 14px;
+	color: #385daa;
+	font-weight: normal;
 }
 
 .container{
@@ -365,6 +375,7 @@ h2{
 
 .destinationDetails{
 	padding-bottom: 15px;
+	margin-bottom: 25px;
 	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -422,7 +433,7 @@ h2{
 	margin-bottom: 7px;
 }
 
-.destinationDetailInfo .subDetails{
+.subDetails{
 	font-family: tahoma;
 	font-size: 11px;
 	line-height: 15px;
@@ -434,7 +445,7 @@ h2{
 	margin-bottom: 25px;
 }
 
-.destinationDetailInfo .destinationCost{
+.destinationCost{
 	font-family: tahoma;
 	font-size: 21px;
 	color: #cf3e05;
@@ -449,7 +460,7 @@ h2{
 	bottom: 0;
 }
 
-.destinationDetails a{
+.detailBtn{
 	width: 95px;
 	display: block;
 	margin: 0 auto;
@@ -473,23 +484,356 @@ h2{
 	background: linear-gradient(to top, #e9e8e8 0%, #FFFFFF 100%);
 }
 
-
+.detailBtn:hover{
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #ffffff),
+		color-stop(1, #e9e8e8));
+	background: -o-linear-gradient(top, #ffffff 0%, #e9e8e8 100%);
+	background: -moz-linear-gradient(top, #ffffff 0%, #e9e8e8 100%);
+	background: -webkit-linear-gradient(top, #ffffff 0%, #e9e8e8 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #e9e8e8 100%);
+	background: linear-gradient(to top, #ffffff 0%, #e9e8e8 100%);
+}
 
 /*****************ENDS**********************/
 
-.upNav ul li.clear{
+.destinationFeaturs{
+	width: 635px;
+	float: left;
+	margin-right: 15px;
+}
+
+.destinationFeaturs .featureHeading{
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+.destinationFeaturs .featureHeading h2{
+	float: left;
+}
+
+.destinationFeaturs .featureHeading a{
+	display: block;
+	float: right;
+	font-family: tahoma;
+	font-size: 11px;
+	color: #385daa;
+}
+
+.destinationFeaturs .featureInfoWrap{
+	width:633px;
+	margin-bottom: 30px;
+	border: 1px solid #d6d6d6;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+.destinationFeaturs .featureInfoWrap .featurHotels{
+	/*margin-top: 18px;*/
+	overflow: hidden;
+	padding:0;
+}
+
+.destinationFeaturs .featureInfoWrap .featurHotels li{
+	width: 301px;
+	float: left;
+	border-bottom: 1px solid #d6d6d6;
+	padding: 18px 0 18px 15px;
+}
+
+.destinationFeaturs .featureInfoWrap .featurHotels li .hotelImgWrap{
+	max-width: 128px;
+	max-height: 96px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.destinationFeaturs .featureInfoWrap .featurHotels li .hotelImgWrap img{
+	max-width: 128px;
+	max-height: 96px;
+}
+
+.destinationFeaturs .featureInfoWrap .featurHotels li .hotelInfoWrap{
+	width: 150px;
+	float: left;
+}
+
+.destinationFeaturs .featureInfoWrap .hotelInfoWrap h3{
+	margin-bottom: 5px;
+}
+
+.destinationFeaturs .featureInfoWrap .hotelInfoWrap .destinationCost{
+	text-align: left;
+	margin-bottom: 5px;
+	font-size: 19px;
+}
+
+.starIconWrap{
+	height: 15px;
+	margin-bottom: 5px;
+}
+
+.star{
+	width: 14px;
+	height: 13px;
+	display: block;
+	float: left;
+	background: url(../images/starIcon.png) no-repeat;
+}
+
+.featurHotels li .detailBtn, .ReturnJournyInfo li .detailBtn{
+	float: left;
+}
+
+.destinationFeaturs .featureInfoWrap .ReturnJournyInfo{
+	overflow: hidden;
+}
+
+.destinationFeaturs .featureInfoWrap .ReturnJournyInfo li{
+	width: 301px;
+	float: left;
+	padding: 18px 0 18px 15px;
+}
+
+.destinationFeaturs .featureInfoWrap .ReturnJournyInfo li .ReturnhotelImgWrap{
+	max-width: 74px;
+	max-height: 56px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.destinationFeaturs .featureInfoWrap .ReturnJournyInfo li .ReturnhotelImgWrap img{
+	max-width: 74px;
+	max-height: 56px;
+}
+
+.destinationFeaturs .featureInfoWrap .ReturnJournyInfo li .hotelInfoWrap{
+	width: 180px;
+	float: left;
+}
+
+.packagePriceInfo{
+	margin-bottom: 5px;
+}
+
+.packagePriceInfo .packagePrice{
+	float: left;
+	border-right: 1px solid #d6d6d6;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+.packagePriceInfo .offer{
+	float: left;
+	background: url(../images/offerIcon.png) no-repeat left center;
+	padding-left: 30px;
+	line-height: 40px;
+	font-family: tahoma;
+	font-size: 15px;
+	color: #647f21;
+}
+
+.destinationFeaturs .featureInfoWrap .ReturnJournyInfo li .hotelInfoWrap .subDetails{
+	line-height: 11px;
+}
+
+.destinationFeaturs .featureInfoWrap .ReturnJournyInfo li .hotelInfoWrap .destinationCost{
+	font-size: 17px;
+	margin-bottom: 0;
+}
+
+.destinationFeaturs .featureInfoWrap .HolidayDestination{
+	float: left;
+	padding: 15px;
+}
+
+.destinationFeaturs .featureInfoWrap .HolidayDestination .HolidayDestinationImgWrap{
+	max-width: 172px;
+	max-height: 115px;
+	float: left;
+	border: 1px solid #d6d6d6;
+	margin-right: 10px;
+}
+
+.destinationFeaturs .featureInfoWrap .HolidayDestination .HolidayDestinationImgWrap img{
+	max-width: 172px;
+	max-height: 115px;
+}
+
+.destinationFeaturs .featureInfoWrap .HolidayDestination .HolidayDestinationInfo{
+	float: left;
+}
+
+.HolidayDestinationInfo .subDetails{
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.HolidayDestinationInfo ul{}
+
+.HolidayDestinationInfo ul li{
+	font-family: tahoma;
+	font-size: 11px;
+	line-height: 15px;
+	color: #878787;
+	background: url('../images/HolidaydestinationListBullet.jpg') no-repeat left center ;
+	padding-left: 8px;
+	margin-bottom: 5px;
+}
+
+.pricePerDestination{
+	float: right;
+	height: 100%;
+	background: #fafafa;
+	padding: 25px 12px;
+	border-left:1px solid #d6d6d6;
+}
+
+.pricePerDestination .destinationCost{
+	margin-bottom: 8px;
+}
+
+.pricePerDestination .subDetailsSpace{
+	margin-bottom: 5px;
+}
+
+.pricePerDestination .destinationCost{
+	margin-bottom: 8px;
+}
+
+.AboutDestinations{
+	width: 328px;
+	float: right;
+}
+
+.AboutDestinations h2{
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+.AboutDestinationsInfo{
+	margin-bottom: 30px;
+	border: 1px solid #d6d6d6;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+.AboutDestinations .AboutDestinationsImgWrap, .AboutDestinations .AboutDestinationsImgWrap img{
+	max-width: 328px;
+	max-height: 238px;
+}
+
+.AboutDestinations .AboutDestinationsInfoDetails{
+	padding: 20px;
+}
+
+.AboutDestinations .AboutDestinationsInfo p{
+	margin-bottom: 20px;
+	font-family: tahoma;
+	font-size: 11px;
+	line-height: 15px;
+	text-align: justify;
+}
+
+.AboutDestinations .AboutDestinationsInfo ul{
+	padding-top: 10px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.AboutDestinations .AboutDestinationsInfo ul li{
+	margin-bottom: 15px;
+}
+
+.AboutDestinations .AboutDestinationsInfo ul li .icon{
+	width: 35px;
+	height: 30px;
+	float: left; 
+	margin-right: 10px;
+}
+
+.chat{
+	background: url(../images/chat.png) no-repeat right;
+}
+
+.time{
+	background: url(../images/watch.png) no-repeat right;
+}
+
+.attraction{
+	background: url(../images/destinationAttraction.png) no-repeat right;
+}
+
+.AboutDestinations .AboutDestinationsInfo ul li .geoInfo{
+	width: 220px;
+	float: left;
+}
+
+.AboutDestinations .AboutDestinationsInfo ul li .geoInfo .title{
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.AboutDestinations .AboutDestinationsInfo ul li .geoInfo .description{
+	font-family: tahoma;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.submitQuerryBtn{
+	font-family: 'robotoregular';
+	font-size: 15px;
+	color: #e8e6d8;
+	line-height: 30px;
+	text-align: center;
+	display: block;
+	border: 1px solid #ff6c00;
+	border-radius: 5px;
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #ff720a),
+		color-stop(1, #ac1700));
+	background: -o-linear-gradient(bottom, #ff720a 0%, #ac1700 100%);
+	background: -moz-linear-gradient(bottom, #ff720a 0%, #ac1700 100%);
+	background: -webkit-linear-gradient(bottom, #ff720a 0%, #ac1700 100%);
+	background: -ms-linear-gradient(bottom, #ff720a 0%, #ac1700 100%);
+	background: linear-gradient(to bottom, #ff720a 0%, #ac1700 100%);
+}
+
+/*****************ENDS**********************/
+
+/*.upNav ul li.clear{
 	float: none;
 	clear:both;
 	margin: 0;
 	padding: 0;
 	border: 0;
-}
+}*/
 
-.upNav ul li.noBorder{
+ul li.noBorder, #noBorder{
 	border-right:none;
+	border-bottom: none;
 }
 
 ul li.clear{
+	width: 0;
+	float: none;
+	clear:both;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.destinationFeaturs .featureInfoWrap .featurHotels li.clear, .destinationFeaturs .featureInfoWrap .ReturnJournyInfo li.clear{
+	width: 0;
 	float: none;
 	clear:both;
 	margin: 0;

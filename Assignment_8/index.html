@@ -3,6 +3,13 @@
 <head>
 	<title>Assigment_8</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script type="text/javascript">
+	$(document).ready(function(){
+  	$("#starRate").click(function(){
+    $("#starRate").addClass("active");
+ 	 });
+	});
+	</script>
 </head>
 <body>
 	<div id="header"><!--header-->
@@ -29,15 +36,15 @@
 				<div class="leftNav">
 					<ul>
 						<li><a href="#" title="Save More" class="tooltip"><span title="More">Home</span></a></li>
-						<li><a href="#">Hotels <span class="mainNavBullet"></span></a></li>
-						<li><a href="#">Flights</a></li>
+						<li><a href="#">Hotels </a></li>
+						<li><a href="#" class="mainNavBullet">Flights</a></li>
 						<li><a href="#" title="Save More" class="tooltip"><span title="More">Flight + Hotel</span></a></li>
 						<li><a href="#">Rail</a></li>
 						<li><a href="#">Bus</a></li>
 						<li><a href="#">Car</a></li>
-						<li><a href="#">Holidays <span class="mainNavBullet"></span></a></li>
+						<li><a href="#" class="mainNavBullet">Holidays </a></li>
 						<li><a href="#">Deals</a></li>
-						<li><a href="#">More <span class="mainNavBullet"></span></a></li>
+						<li><a href="#" class="mainNavBullet">More</a></li>
 						<li class="clear"></li>
 					</ul>
 				</div>
@@ -149,14 +156,14 @@
 			</div>
 			<div class="featureInfoWrap">
 				<ul class="featurHotels">
-					<li>
+					<li class="outerList">
 						<div class="hotelImgWrap">
 							<img src="images/goaHotelImg1.jpg" alt="" />
 						</div>
 						<div class="hotelInfoWrap">
 							<h3>Santana Beach Resort</h3>
 							<div class="starIconWrap">
-								<span class="star"></span>
+								<span id="starRate" class="star"></span>
 								<span class="star"></span>
 								<span class="star"></span>
 								<span class="star"></span>
@@ -169,7 +176,7 @@
 						</div>
 						<div class="clear"></div>
 					</li>
-					<li>
+					<li class="outerList">
 						<div class="hotelImgWrap">
 							<img src="images/goaHotelImg2.jpg" alt="" />
 						</div>
@@ -189,7 +196,7 @@
 						</div>
 						<div class="clear"></div>
 					</li>
-					<li id="noBorder">
+					<li id="noBorder" class="outerList">
 						<div class="hotelImgWrap">
 							<img src="images/goaHotelImg3.jpg" alt="" />
 						</div>
@@ -209,7 +216,7 @@
 						</div>
 						<div class="clear"></div>
 					</li>
-					<li id="noBorder">
+					<li id="noBorder" class="outerList">
 						<div class="hotelImgWrap">
 							<img src="images/goaHotelImg4.jpg" alt="" />
 						</div>

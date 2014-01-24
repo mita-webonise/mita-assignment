@@ -55,9 +55,7 @@
 }
 
 body{
-	background: url(../images/body-bg.jpg) repeat;
 	color: #444444;
-	margin-bottom: 100px;
 }
 
 li{
@@ -72,7 +70,7 @@ img{
 	border: none;
 }
 
-.clear{
+.clear {
 	clear: both;
 }
 
@@ -100,38 +98,38 @@ h3{
 	font-weight: normal;
 }
 
-.container{
+.container {
 	width: 980px;
 	margin: 0 auto;
 }
 
 
-#header{
+#header {
 	/*height: 97px;*/
 	color: #3d6dc5; 
 	border-bottom: 3px solid #385daa;
 	margin-bottom: 20px;
 }
 
-.logo-upNavWrap{
+.logo-upNavWrap {
 	margin: 5px 0 7px 0;
 }
 
-#logo{
+#logo {
 	width: 120px;
 	height: 52px;
 	float: left;
 	background: url(../images/makemytrip-logo.png) no-repeat;
 }
 
-.upNav{
+.upNav {
 	float: right;
 }
 
 .upNav ul{
 	margin-bottom: 5px;
 	background: url(../images/booking.png) no-repeat;
-	padding-left: 27px;
+	padding-left: 20px;
 	overflow: hidden;
 }
 
@@ -155,11 +153,11 @@ h3{
 
 /*****************COUNTRY DROPDOWN**********************/
 
-.SelectCountry{
+.SelectCountry {
 	position: relative;
 }
 
-.country-dropdown{
+.country-dropdown {
 	width:43px;
 	display: block;
 	float: right;
@@ -192,13 +190,13 @@ h3{
 
 /*****************COUNTRY DROPDOWN ENDS**********************/
 
-.navigation{}
+.navigation {}
 
-.navigation .leftNav{
+.navigation .leftNav {
 	float: left;
 }
 
-.navigation .rightNav{
+.navigation .rightNav {
 	float: right;
 }
 
@@ -252,27 +250,21 @@ h3{
 	position: relative;
 }
 
-.navigation ul li a .mainNavBullet{
-	width: 10px;
-	height: 10px;
-	display: block;
-	float: right;
-	background: url(../images/mainNavBullet.png) no-repeat;
-	position: relative;
-	top: 12px;
-	right: -5px;
+.navigation ul li a.mainNavBullet {
+	background: url(../images/mainNavBullet.png) no-repeat right 12px;
+	right: 4px;
 }
 
 .navigation .rightNav ul li{
 	margin-right: 0;
 }
 
-.tooltip{
+.tooltip {
    	display: inline;
     position: relative;
 }
 		
-.tooltip:hover:after{
+.tooltip:hover:after {
     background: #ffd205;
     background: rgba(255,210,5,1);
     border-radius: 5px;
@@ -286,7 +278,7 @@ h3{
     width: 150%;
 }
 		
-.tooltip:hover:before{
+.tooltip:hover:before {
     border: solid;
     border-color: #ffd205 transparent;
     border-width: 6px 6px 0 6px;
@@ -298,7 +290,7 @@ h3{
 }
 /*****************Header ENDS**********************/
 
-.destinationSearchBox{
+.destinationSearchBox {
 	margin-bottom: 30px;
 }
 
@@ -306,10 +298,10 @@ h3{
 	margin-bottom: 11px;
 }
 
-.destinationInfo{
+.destinationInfo {
 	border: 1px solid #d6d6d6;
 	border-top: 3px solid #ffc136;
-	box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
 	padding: 5px 15px;
 }
 
@@ -323,22 +315,22 @@ h3{
 	line-height: 38px;
 }
 
-.destinationSearchBox ul li .destinationTitle, .destinationSearchBox ul li .destinationDescription{
+.destinationSearchBox ul li .destinationTitle, .destinationSearchBox ul li .destinationDescription {
 	font-family: tahoma;
 	font-size: 11px;
 	line-height: 15px;
 	display: block;
 }
 
-.destinationSearchBox ul li .destinationTitle{
+.destinationSearchBox ul li .destinationTitle {
 	color: #2f2f2f;
 }
 
-.destinationSearchBox ul li .destinationDescription{
+.destinationSearchBox ul li .destinationDescription {
 	color: #cf3e05;
 }
 
-.destinationSearchBox ul li.rightSpaceBorder{
+.destinationSearchBox ul li.rightSpaceBorder {
 	padding-right: 32px;
 	margin-right: 14px;
 	border-right: 1px solid #e5e5e5;
@@ -368,7 +360,7 @@ h3{
 	position: relative;
 }
 
-.destinationSearchBox a .expandIcon{
+.destinationSearchBox a .expandIcon {
 	position: absolute;
 	left: 5px;
 	top: 6px;
@@ -385,10 +377,10 @@ h3{
 
 /*****************ENDS**********************/
 
-.destinationDetails{
+.destinationDetails {
 	padding-bottom: 15px;
 	margin-bottom: 25px;
-	box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.1);
 }
 
 .destinationDetails ul{
@@ -401,42 +393,43 @@ h3{
 	margin-left: 15px;
 }
 
-.destinationDetailInfo{
+.destinationDetailInfo {
 	width: 118px;
 	height: 190px;
 	border:1px solid #e2e0e0;
 	padding: 15px;
 	margin-bottom: 3px;
+	position: relative;
 }
 
-.destinationDetailInfo .detailInfoIcon{
+.destinationDetailInfo .detailInfoIcon {
 	width: 60px;
 	height: 45px;
 	margin: 0 auto;
 	margin-bottom: 16px;
 }
 
-.destinationDetailInfo .AirFairIcon{
+.destinationDetailInfo .AirFairIcon {
 	background: url(../images/plane.png) no-repeat center center;
 }
 
-.destinationDetailInfo .hotelFairIcon{
+.destinationDetailInfo .hotelFairIcon {
 	background: url(../images/room.png) no-repeat center center;
 }
 
-.destinationDetailInfo .siteFairIcon{
+.destinationDetailInfo .siteFairIcon {
 	background: url(../images/beach.png) no-repeat center center;
 }
 
-.destinationDetailInfo .carFairIcon{
+.destinationDetailInfo .carFairIcon {
 	background: url(../images/car.png) no-repeat center center;
 }
 
-.destinationDetailInfo .busFairIcon{
+.destinationDetailInfo .busFairIcon {
 	background: url(../images/bus.png) no-repeat center center;
 }
 
-.destinationDetailInfo .destinationInfoTitle{
+.destinationDetailInfo .destinationInfoTitle {
 	font-family: 'robotoregular';
 	font-size: 15px;
 	line-height: 15px;
@@ -445,11 +438,11 @@ h3{
 	margin-bottom: 7px;
 }
 
-.destinationDetailInfo .subDetailsfirst{
+.destinationDetailInfo .subDetailsfirst {
 	min-height: 30px;
 }
 
-.destinationDetailInfo .subDetailsfirst, .subDetails{
+.destinationDetailInfo .subDetailsfirst, .subDetails {
 	font-family: tahoma;
 	font-size: 11px;
 	line-height: 15px;
@@ -457,26 +450,31 @@ h3{
 	color: #878787;
 }
 
-.subDetailsSpace{
+.subDetailsSpace {
 	margin-bottom: 25px;
 }
 
-.destinationCost{
+.destinationCost {
 	font-family: tahoma;
 	font-size: 21px;
 	color: #cf3e05;
 	text-align: center;
-	bottom: 0;
 }
 
-.costfairIcon{
+.costfairIcon {
 	font-family: 'rupeeregular';
-	font-size: 21px;
+	font-size: 22px;
 	color: #cf3e05;
-	bottom: 0;
 }
 
-.destinationCostStrike{
+.destinationDetailInfo .destinationCost{
+	width: 118px;
+	position: absolute;
+	bottom: 15px;
+	text-align: center;
+}
+
+.destinationCostStrike {
 	font-family: tahoma;
 	font-size: 15px;
 	color: #cf3e05;
@@ -485,7 +483,11 @@ h3{
 	text-decoration: line-through;
 }
 
-.detailBtn{
+.destinationCostStrike .costfairIcon {
+	font-size: 16px;
+}
+
+.detailBtn {
 	width: 95px;
 	display: block;
 	margin: 0 auto;
@@ -509,7 +511,7 @@ h3{
 	background: linear-gradient(to top, #e9e8e8 0%, #FFFFFF 100%);
 }
 
-.detailBtn:hover{
+.detailBtn:hover {
 	background: -webkit-gradient(
 		linear,
 		left top,
@@ -525,13 +527,13 @@ h3{
 
 /*****************ENDS**********************/
 
-.destinationFeaturs{
+.destinationFeaturs {
 	width: 635px;
 	float: left;
 	margin-right: 15px;
 }
 
-.destinationFeaturs .featureHeading{
+.destinationFeaturs .featureHeading {
 	height: 20px;
 	line-height: 20px;
 	margin-bottom: 10px;
@@ -549,7 +551,7 @@ h3{
 	color: #385daa;
 }
 
-.destinationFeaturs .featureInfoWrap{
+.destinationFeaturs .featureInfoWrap {
 	width:633px;
 	margin-bottom: 30px;
 	border: 1px solid #d6d6d6;
@@ -557,32 +559,32 @@ h3{
 	overflow: hidden;
 }
 
-.destinationFeaturs .featureInfoWrap .featurHotels{
+.destinationFeaturs .featureInfoWrap .featurHotels {
 	/*margin-top: 18px;*/
 	overflow: hidden;
 	padding:0;
 }
 
-.destinationFeaturs .featureInfoWrap .featurHotels li{
-	width: 301px;
+.destinationFeaturs .featureInfoWrap .featurHotels li.outerList{
+	width: 316px;
 	float: left;
 	border-bottom: 1px solid #d6d6d6;
-	padding: 18px 0 18px 15px;
+	padding: 18px 0 18px 0px;
 }
 
-.destinationFeaturs .featureInfoWrap .featurHotels li .hotelImgWrap{
+.destinationFeaturs .featureInfoWrap .featurHotels li.outerList .hotelImgWrap {
 	max-width: 128px;
 	max-height: 96px;
 	float: left;
-	margin: 0 10px 0 0;
+	margin: 0 10px 0 15px;
 }
 
-.destinationFeaturs .featureInfoWrap .featurHotels li .hotelImgWrap img{
+.destinationFeaturs .featureInfoWrap .featurHotels li.outerList .hotelImgWrap img{
 	max-width: 128px;
 	max-height: 96px;
 }
 
-.destinationFeaturs .featureInfoWrap .featurHotels li .hotelInfoWrap{
+.destinationFeaturs .featureInfoWrap .featurHotels li.outerList .hotelInfoWrap {
 	width: 150px;
 	float: left;
 }
@@ -591,30 +593,60 @@ h3{
 	margin-bottom: 5px;
 }
 
-.destinationFeaturs .featureInfoWrap .hotelInfoWrap .destinationCost{
+.destinationFeaturs .featureInfoWrap .hotelInfoWrap .destinationCost {
 	text-align: left;
 	margin-bottom: 5px;
 	font-size: 19px;
 }
 
+.destinationFeaturs .featureInfoWrap .hotelInfoWrap .costfairIcon {
+	font-family: 'rupeeregular';
+	font-size: 20px;
+	color: #cf3e05;
+	bottom: 0;
+}
+
+/************************STAR RATE*****************************/
+
 .starIconWrap{
+	width: 100px;
 	height: 15px;
 	margin-bottom: 5px;
 }
 
 .star{
-	width: 14px;
-	height: 13px;
+	width: 16px;
+	height: 16px;
 	display: block;
 	float: left;
-	background: url(../images/starIcon.png) no-repeat;
+	background: url(../images/star_rate.png) no-repeat left top;
 }
 
-.featurHotels li .detailBtn, .ReturnJournyInfo li .detailBtn{
+.star:hover{
+	background: url(../images/star_rate.png) no-repeat left -16px;
+}
+
+.star:active{
+	position:relative;
+	top:1px;
+	background:url(../images/star_rate.png) no-repeat left -32px;
+}
+
+.active{
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	background:url(../images/star_rate.png) no-repeat left -32px;
+}
+
+/************************STAR RATE*****************************/
+
+.featurHotels li .detailBtn, .ReturnJournyInfo li .detailBtn {
 	float: left;
 }
 
-.destinationFeaturs .featureInfoWrap .ReturnJournyInfo{
+.destinationFeaturs .featureInfoWrap .ReturnJournyInfo {
 	overflow: hidden;
 }
 
@@ -624,7 +656,7 @@ h3{
 	padding: 18px 0 18px 15px;
 }
 
-.destinationFeaturs .featureInfoWrap .ReturnJournyInfo li .ReturnhotelImgWrap{
+.destinationFeaturs .featureInfoWrap .ReturnJournyInfo li .ReturnhotelImgWrap {
 	max-width: 74px;
 	max-height: 56px;
 	float: left;
@@ -636,23 +668,23 @@ h3{
 	max-height: 56px;
 }
 
-.destinationFeaturs .featureInfoWrap .ReturnJournyInfo li .hotelInfoWrap{
+.destinationFeaturs .featureInfoWrap .ReturnJournyInfo li .hotelInfoWrap {
 	width: 180px;
 	float: left;
 }
 
-.packagePriceInfo{
-	margin-bottom: 5px;
+.packagePriceInfo {
+	margin:10px 0 5px 0;
 }
 
-.packagePriceInfo .packagePrice{
+.packagePriceInfo .packagePrice {
 	float: left;
 	border-right: 1px solid #d6d6d6;
 	padding-right: 10px;
 	margin-right: 10px;
 }
 
-.packagePriceInfo .offer{
+.packagePriceInfo .offer {
 	float: left;
 	background: url(../images/offerIcon.png) no-repeat left center;
 	padding-left: 30px;
@@ -662,21 +694,25 @@ h3{
 	color: #647f21;
 }
 
-.destinationFeaturs .featureInfoWrap .ReturnJournyInfo li .hotelInfoWrap .subDetails{
+.destinationFeaturs .featureInfoWrap .ReturnJournyInfo li .hotelInfoWrap .subDetails {
 	line-height: 11px;
 }
 
-.destinationFeaturs .featureInfoWrap .ReturnJournyInfo li .hotelInfoWrap .destinationCost{
+.destinationFeaturs .featureInfoWrap .ReturnJournyInfo li .hotelInfoWrap .destinationCost {
 	font-size: 17px;
 	margin-bottom: 0;
 }
 
-.destinationFeaturs .featureInfoWrap .HolidayDestination{
+.destinationFeaturs .featureInfoWrap .ReturnJournyInfo li .hotelInfoWrap .costfairIcon {
+	font-size: 18px;
+}
+
+.destinationFeaturs .featureInfoWrap .HolidayDestination {
 	float: left;
 	padding: 15px;
 }
 
-.destinationFeaturs .featureInfoWrap .HolidayDestination .HolidayDestinationImgWrap{
+.destinationFeaturs .featureInfoWrap .HolidayDestination .HolidayDestinationImgWrap {
 	max-width: 172px;
 	max-height: 115px;
 	float: left;
@@ -689,11 +725,11 @@ h3{
 	max-height: 115px;
 }
 
-.destinationFeaturs .featureInfoWrap .HolidayDestination .HolidayDestinationInfo{
+.destinationFeaturs .featureInfoWrap .HolidayDestination .HolidayDestinationInfo {
 	float: left;
 }
 
-.HolidayDestinationInfo .subDetails{
+.HolidayDestinationInfo .subDetails {
 	text-align: left;
 	margin-bottom: 15px;
 }
@@ -710,7 +746,7 @@ h3{
 	margin-bottom: 5px;
 }
 
-.pricePerDestination{
+.pricePerDestination {
 	float: right;
 	height: 100%;
 	background: #fafafa;
@@ -718,19 +754,19 @@ h3{
 	border-left:1px solid #d6d6d6;
 }
 
-.pricePerDestination .destinationCost{
+.pricePerDestination .destinationCost {
 	margin-bottom: 8px;
 }
 
-.pricePerDestination .subDetailsSpace{
+.pricePerDestination .subDetailsSpace {
 	margin-bottom: 5px;
 }
 
-.pricePerDestination .destinationCost{
+.pricePerDestination .destinationCost {
 	margin-bottom: 8px;
 }
 
-.AboutDestinations{
+.AboutDestinations {
 	width: 328px;
 	float: right;
 }
@@ -740,7 +776,7 @@ h3{
 	margin-bottom: 10px;
 }
 
-.AboutDestinationsInfo{
+.AboutDestinationsInfo {
 	margin-bottom: 30px;
 	border: 1px solid #d6d6d6;
 	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
@@ -752,7 +788,7 @@ h3{
 	max-height: 238px;
 }
 
-.AboutDestinations .AboutDestinationsInfoDetails{
+.AboutDestinations .AboutDestinationsInfoDetails {
 	padding: 20px;
 }
 
@@ -774,44 +810,44 @@ h3{
 	margin-bottom: 15px;
 }
 
-.AboutDestinations .AboutDestinationsInfo ul li .icon{
+.AboutDestinations .AboutDestinationsInfo ul li .icon {
 	width: 35px;
 	height: 30px;
 	float: left; 
 	margin-right: 10px;
 }
 
-.chat{
+.chat {
 	background: url(../images/chat.png) no-repeat right;
 }
 
-.time{
+.time {
 	background: url(../images/watch.png) no-repeat right;
 }
 
-.attraction{
+.attraction {
 	background: url(../images/destinationAttraction.png) no-repeat right;
 }
 
-.AboutDestinations .AboutDestinationsInfo ul li .geoInfo{
+.AboutDestinations .AboutDestinationsInfo ul li .geoInfo {
 	width: 220px;
 	float: left;
 }
 
-.AboutDestinations .AboutDestinationsInfo ul li .geoInfo .title{
+.AboutDestinations .AboutDestinationsInfo ul li .geoInfo .title {
 	font-family: tahoma;
 	font-weight: bold;
 	font-size: 13px;
 	line-height: 15px;
 }
 
-.AboutDestinations .AboutDestinationsInfo ul li .geoInfo .description{
+.AboutDestinations .AboutDestinationsInfo ul li .geoInfo .description {
 	font-family: tahoma;
 	font-size: 11px;
 	line-height: 15px;
 }
 
-.submitQuerryBtn{
+.submitQuerryBtn {
 	font-family: 'robotoregular';
 	font-size: 15px;
 	color: #e8e6d8;
@@ -835,20 +871,12 @@ h3{
 
 /*****************ENDS**********************/
 
-/*.upNav ul li.clear{
-	float: none;
-	clear:both;
-	margin: 0;
-	padding: 0;
-	border: 0;
-}*/
-
-ul li.noBorder, #noBorder{
+ul li.noBorder, #noBorder {
 	border-right:none;
 	border-bottom: none;
 }
 
-ul li.clear{
+ul li.clear {
 	width: 0;
 	float: none;
 	clear:both;
@@ -857,7 +885,7 @@ ul li.clear{
 	border: none;
 }
 
-.destinationFeaturs .featureInfoWrap .featurHotels li.clear, .destinationFeaturs .featureInfoWrap .ReturnJournyInfo li.clear{
+.destinationFeaturs .featureInfoWrap .featurHotels li.clear, .destinationFeaturs .featureInfoWrap .ReturnJournyInfo li.clear {
 	width: 0;
 	float: none;
 	clear:both;

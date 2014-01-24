@@ -109,15 +109,17 @@ h3{
 	color: #3d6dc5; 
 	border-bottom: 3px solid #385daa;
 	margin-bottom: 20px;
+	padding-top: 5px;
 }
 
 .logo-upNavWrap {
-	margin: 5px 0 7px 0;
+	margin: 0 0 7px 0;
 }
 
-#logo {
+.logo {
 	width: 120px;
 	height: 52px;
+	text-indent: -5000px;
 	float: left;
 	background: url(../images/makemytrip-logo.png) no-repeat;
 }
@@ -192,11 +194,11 @@ h3{
 
 .navigation {}
 
-.navigation .leftNav {
+.navigation ul.leftNav {
 	float: left;
 }
 
-.navigation .rightNav {
+.navigation ul.rightNav {
 	float: right;
 }
 
@@ -566,17 +568,17 @@ h3{
 }
 
 .destinationFeaturs .featureInfoWrap .featurHotels li.outerList{
-	width: 316px;
+	width: 286px;
 	float: left;
 	border-bottom: 1px solid #d6d6d6;
-	padding: 18px 0 18px 0px;
+	padding: 18px 15px 18px 15px;
 }
 
 .destinationFeaturs .featureInfoWrap .featurHotels li.outerList .hotelImgWrap {
 	max-width: 128px;
 	max-height: 96px;
 	float: left;
-	margin: 0 10px 0 15px;
+	margin: 0 10px 0 0;
 }
 
 .destinationFeaturs .featureInfoWrap .featurHotels li.outerList .hotelImgWrap img{
@@ -585,7 +587,7 @@ h3{
 }
 
 .destinationFeaturs .featureInfoWrap .featurHotels li.outerList .hotelInfoWrap {
-	width: 150px;
+	width: 140px;
 	float: left;
 }
 
@@ -650,10 +652,10 @@ h3{
 	overflow: hidden;
 }
 
-.destinationFeaturs .featureInfoWrap .ReturnJournyInfo li{
-	width: 301px;
+.destinationFeaturs .featureInfoWrap .ReturnJournyInfo li.ReturnJourny{
+	width: 286px;
 	float: left;
-	padding: 18px 0 18px 15px;
+	padding: 18px 15px;
 }
 
 .destinationFeaturs .featureInfoWrap .ReturnJournyInfo li .ReturnhotelImgWrap {
@@ -678,6 +680,7 @@ h3{
 }
 
 .packagePriceInfo .packagePrice {
+	width: 66px;
 	float: left;
 	border-right: 1px solid #d6d6d6;
 	padding-right: 10px;
@@ -685,6 +688,7 @@ h3{
 }
 
 .packagePriceInfo .offer {
+	width: 40px;
 	float: left;
 	background: url(../images/offerIcon.png) no-repeat left center;
 	padding-left: 30px;
@@ -708,6 +712,7 @@ h3{
 }
 
 .destinationFeaturs .featureInfoWrap .HolidayDestination {
+	width: 467px;
 	float: left;
 	padding: 15px;
 }
@@ -747,6 +752,7 @@ h3{
 }
 
 .pricePerDestination {
+	width: 111px;
 	float: right;
 	height: 100%;
 	background: #fafafa;
@@ -851,7 +857,8 @@ h3{
 	font-family: 'robotoregular';
 	font-size: 15px;
 	color: #e8e6d8;
-	line-height: 30px;
+	line-height: 17px;
+	padding: 7px 0;
 	text-align: center;
 	display: block;
 	border: 1px solid #ff6c00;

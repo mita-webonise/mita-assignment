@@ -112,13 +112,14 @@ h2{
 	z-index: 100;
 }
 
-#logo{
+.logo{
 	width: 113px;
 	height: 34px;
 	display: block;
 	float: left;
 	margin-top: 7px;
 	background: url(../images/logo.png) no-repeat;
+	text-indent: -5000px;
 }
 
 .buttonWrap{

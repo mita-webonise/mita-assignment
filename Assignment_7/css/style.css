@@ -81,18 +81,17 @@ img{
 	clear: both;
 }
 
-h1, h2{
+h1{	
 	font-family: 'ubuntubold';
 	font-weight: normal;
-}
-
-h1{	
 	font-size: 40px;
 	line-height: 40px;
 	color: #ffffff;
 }
 
 h2{
+	font-family: 'ubuntumedium';
+	font-weight: normal;
 	font-size: 36px;
 	line-height: 38px;
 	color: #444444;

@@ -272,7 +272,7 @@ h2{
 }
 
 .Ideacontent-signUpwrap .Ideacontent h2, .Ideacontent-signUpwrap .para, .Ideacontent-signUpwrap .paraBold{
-	text-shadow:1px 1px 1px rgba(255, 255, 255, 0.9);
+	text-shadow:1px 1px 0px rgba(255, 255, 255, 1);
 }
 
 .Ideacontent-signUpwrap .SignUpContent{

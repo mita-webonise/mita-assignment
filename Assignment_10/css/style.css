@@ -107,7 +107,7 @@ h3 {
 
 .searchInfo ul {
     margin-bottom: 6px;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .searchInfo ul li {
@@ -520,7 +520,7 @@ ul.tablist li.tabs {
 
 ul.tablist li.tabs.tabs a{
     margin-top: 3px;
-    padding: 8px;
+    padding: 5px 8px 4px;
     line-height: 25px;
     text-align: center;
     color: #2255aa;
@@ -675,7 +675,7 @@ ul.schoolList li .schoolName {
 }
 
 .Button {
-    margin-right: 6px;
+    margin:0 6px 0 0;
 }
 
 .weekTip {
@@ -694,7 +694,6 @@ ul.schoolList li .schoolName {
 
 .WeekTipBtn .Button {
     width: auto;
-    display: block;
     padding:8px;
     margin-left: 70px;
 }

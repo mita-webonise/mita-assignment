@@ -348,7 +348,7 @@ ul.verticalMenu li.exPrgm {
 }
 
 ul.verticalMenu li.Location {
-    background: url(../images/overview.png) no-repeat 5px center;
+    background: url(../images/locations.png) no-repeat 5px center;
 }
 
 ul.verticalMenu li.Curriculum {
@@ -356,7 +356,7 @@ ul.verticalMenu li.Curriculum {
 }
 
 ul.verticalMenu li.Global {
-    background: url(../images/overview.png) no-repeat 5px center;
+    background: url(../images/global.png) no-repeat 5px center;
 }
 
 ul.verticalMenu li.Corporate {

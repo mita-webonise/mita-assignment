@@ -107,7 +107,6 @@ h3 {
 
 .searchInfo ul {
     margin-bottom: 6px;
-    /*overflow: hidden;*/
 }
 
 .searchInfo ul li {
@@ -126,7 +125,7 @@ h3 {
     font: arial 14px;
 }
 
-.searchInfo .searchFeild{
+.searchInfo .searchFeild {
     width: 460px;
 }
 
@@ -170,7 +169,7 @@ h3 {
     cursor: pointer;   
 }
 
-.headerRightBtns{
+.headerRightBtns {
     float: right;
     margin-top: 25px;
 }
@@ -179,8 +178,7 @@ ul.registerLoginBtn, ul.registerLoginBtn li, ul.socialBtn, ul.socialBtn li {
     float: left;
 }
 
-.headerRightBtns ul.registerLoginBtn{
-    /*float: left;*/
+.headerRightBtns ul.registerLoginBtn {
     font-family: 'arialbold', arial;
     font-size: 14px;
     font-weight: bold;
@@ -188,21 +186,18 @@ ul.registerLoginBtn, ul.registerLoginBtn li, ul.socialBtn, ul.socialBtn li {
     text-shadow: 1px 1px 1px #ffffff;
 }
 
-ul.registerLoginBtn li{
-    /*float: left;*/
+ul.registerLoginBtn li {
     margin-right: 16px;
 }
 
-ul.registerLoginBtn li a{
+ul.registerLoginBtn li a {
     color: #2255aa;
 }
 
-.headerRightBtns ul.socialBtn{
-    /*float: left;*/
+.headerRightBtns ul.socialBtn {
 }
 
-ul.socialBtn li{
-    /*float: left;*/
+ul.socialBtn li {
     margin-left: 5px;
 }
 
@@ -230,19 +225,19 @@ ul.socialBtn li a.fbIcon {
     margin:0 20px 20px 0;
 }
 
-a.profileInfo{
+a.profileInfo {
     display: block;
     margin-bottom: 15px;
 }
 
-.ProfileImgWrap{
+.ProfileImgWrap {
     width: 209px;
     height: 178px;
     border-bottom: 1px solid #e5e5ee;
     margin-bottom: 20px;
 }
 
-.ProfileImgWrap img{
+.ProfileImgWrap img {
     max-width: 209px;
     max-height: 178px;
 }
@@ -376,6 +371,8 @@ ul.verticalMenu li.Placement {
 }
 
 ul.verticalMenu li a {
+    display: block;
+    margin-right: 20px;
     color: #2255aa;
     line-height: 29px;
 }
@@ -472,7 +469,7 @@ li.packegeList li.innerList {
 }
 
 .facultyProfile ul {
-    padding: 9px 0px 0 0;
+    padding: 9px 0 0 0;
 }
 
 .facultyProfile ul li {
@@ -480,7 +477,7 @@ li.packegeList li.innerList {
     width: 48px;
     height: 48px;
     border: 1px solid #e5e5ee;
-    margin-left: 2px;
+    margin-right: 2px;
 }
 
 .facultyProfile ul li img {
@@ -488,9 +485,7 @@ li.packegeList li.innerList {
     max-height: 48px;
 }
 
-
 /**************************leftCol Ends*********************************/
-
 
 .contentCol {
     width: 760px;
@@ -519,7 +514,7 @@ ul.tablist li.tabs {
     background: #ffffff;
 }
 
-ul.tablist li.tabs a{
+ul.tablist li.tabs a {
     margin-top: 3px;
     padding: 5px 8px 4px;
     line-height: 25px;
@@ -534,11 +529,9 @@ ul.tablist li.tabs a.active {
 }
 
 .usercontent ul.userComentsList {
-
 }
 
-.usercontent ul.userComentsList li.userComent {
-    
+.usercontent ul.userComentsList li.userComent {    
 }
 
 .usercontent ul.userComentsList li.mainList {
@@ -581,12 +574,6 @@ ul.tablist li.tabs a.active {
 .userComentsInfo span {
     color: #bbbbbb;
 }
-
-/*.userComentsInfo p {
-    color: #959595;
-    line-height: 18px;
-    margin-bottom: 10px;
-}*/
 
 li.userComent .UserProfileImg {
     width: 50px;
@@ -716,8 +703,6 @@ ul.schoolList li .schoolName {
     line-height: 16px;
 }
 
-
-
 /**************************contentCol Ends*********************************/
 
 .footer {
@@ -770,9 +755,7 @@ ul.footerSubMenu li {
     color: #959595;
 }
 
-
-
-ul li.clear{
+ul li.clear {
     float: none;
     clear: both;
     border: none;

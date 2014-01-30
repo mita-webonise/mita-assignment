@@ -441,15 +441,29 @@ ul.verticalMenu li span {
 
 .factsFiguresWrap ul{}
 
-.factsFiguresWrap ul li {
+.factsFiguresWrap ul li.packegeList {
     font-weight: bold;
     line-height: 30px;
     border-bottom: 1px solid #e5e5ee;
     color: #959595;
+    position: relative;
 }
 
 .factsFiguresWrap ul li a {
     color: #959595;
+}
+
+li.packegeList li.innerList {
+    font-weight: normal;
+    position: relative;
+}
+
+.figures {
+    font-weight: 800;
+    color: #000000;
+    position: absolute;
+    top: 2px;
+    right: 5px;
 }
 
 .facultyProfile {

@@ -576,16 +576,16 @@ ul.tablist li.tabs a.active {
 }
 
 li.userComent .UserProfileImg {
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
     float: left;
     margin-right: 9px;
     border: 1px solid #d2d5e9; 
 }
 
 .UserProfileImg img {
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 48px;
+    max-height: 48px;
 }
 
 .commentInfo {

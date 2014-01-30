@@ -166,7 +166,8 @@ h3 {
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
-    padding: 6px 0;    
+    padding: 6px 0;
+    cursor: pointer;   
 }
 
 .headerRightBtns{
@@ -518,7 +519,7 @@ ul.tablist li.tabs {
     background: #ffffff;
 }
 
-ul.tablist li.tabs.tabs a{
+ul.tablist li.tabs a{
     margin-top: 3px;
     padding: 5px 8px 4px;
     line-height: 25px;
@@ -529,10 +530,7 @@ ul.tablist li.tabs.tabs a{
 ul.tablist li.tabs a.active {
     /*border-bottom: 1px solid #ffffff;*/
     color: #000000;
-}
-
-ul.tablist li.active {
-    margin-top: 4px;
+    line-height: 26px;
 }
 
 .usercontent ul.userComentsList {
@@ -540,15 +538,16 @@ ul.tablist li.active {
 }
 
 .usercontent ul.userComentsList li.userComent {
-    padding:0 5px 10px 0;
-    margin-bottom: 15px;
+    
 }
 
 .usercontent ul.userComentsList li.mainList {
+    margin-bottom: 15px;
+    padding:0 5px 10px 0;
     border-bottom: 1px solid #e5e5ee;
 }
 
-li.userComent .schoolProfileImg {
+.schoolProfileImg {
     width: 34px;
     height: 34px;
     float: left;
@@ -561,7 +560,7 @@ li.userComent .schoolProfileImg {
     max-height: 34px;
 }
 
-li.userComent .userComentsInfo {
+.userComentsInfo {
     width: 404px;
     float: left;
 }
@@ -674,8 +673,18 @@ ul.schoolList li .schoolName {
     margin-bottom: 15px;
 }
 
-.Button {
+.Apply .Button {
+    display: block;
+    float: left;
     margin:0 6px 0 0;
+    /*padding:8px;*/
+    color: #ffffff;
+}
+
+.Apply span {
+    display: block;
+    float: left;
+    line-height: 32px;
 }
 
 .weekTip {
@@ -694,11 +703,16 @@ ul.schoolList li .schoolName {
 
 .WeekTipBtn .Button {
     width: auto;
+    display: block;
     padding:8px;
-    margin-left: 70px;
+    margin: 0 70px;
+    color: #ffffff;
 }
 
 .powerBy {
+}
+
+.powerBy span {
     line-height: 16px;
 }
 

@@ -395,10 +395,13 @@ ul.verticalMenu li span {
 .factsFiguresWrap h2, .facultyProfile h2, .headingBg, .rightCol h2 {
     background: #ccddff;
     height: 29px;
-    line-height: 29px;
     padding-left: 10px;
     border-bottom: 1px solid #bbccff;
     box-shadow: inset 0 -1px 0 #ffffff;
+}
+
+.factsFiguresWrap h2, .facultyProfile h2, .rightCol h2 {
+    line-height: 29px;
 }
 
 .factsFiguresWrap .listUp, .factsFiguresWrap .listDown {

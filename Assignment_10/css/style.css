@@ -17,6 +17,11 @@
 	padding: 0;
 }
 
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: arial;
     font-size: 12px;
@@ -225,10 +230,9 @@ ul.socialBtn li a.fbIcon {
     margin:0 20px 20px 0;
 }
 
-a.profileInfo {
-    display: block;
+/*.profileInfo {
     margin-bottom: 15px;
-}
+}*/
 
 .ProfileImgWrap {
     width: 209px;
@@ -243,10 +247,15 @@ a.profileInfo {
 }
 
 .profileName {
+    margin-bottom: 15px;
     font-size: 12px;
     font-weight: bold;
     line-height: 18px;
     color: #2255aa;   
+}
+
+.profileName a {
+    color: #2255aa;
 }
 
 .fanFollowWrap {
@@ -496,17 +505,17 @@ li.packegeList li.innerList {
     color: #2255aa;
 }
 
-.contentCol .usercontent {
+.contentCol .userContent {
     width: 460px;
     float: left;
     margin-right: 20px;
 }
 
-ul.tablist {
+ul.tabList {
    margin-bottom: 15px;
 }
 
-ul.tablist li.tabs {
+ul.tabList li.tabs {
     float: left;
     margin:3px 5px 0 0;
     border: 1px solid #bbccff;
@@ -514,7 +523,7 @@ ul.tablist li.tabs {
     background: #ffffff;
 }
 
-ul.tablist li.tabs a {
+ul.tabList li.tabs a {
     margin-top: 3px;
     padding: 5px 8px 4px;
     line-height: 25px;
@@ -522,19 +531,19 @@ ul.tablist li.tabs a {
     color: #2255aa;
 }
 
-ul.tablist li.tabs a.active {
+ul.tabList li.tabs a.active {
     /*border-bottom: 1px solid #ffffff;*/
     color: #000000;
     line-height: 26px;
 }
 
-.usercontent ul.userComentsList {
+.userContent ul.userComentsList {
 }
 
-.usercontent ul.userComentsList li.userComent {    
+.userContent ul.userComentsList li.userComent {    
 }
 
-.usercontent ul.userComentsList li.mainList {
+.userContent ul.userComentsList li.mainList {
     margin-bottom: 15px;
     padding:0 5px 10px 0;
     border-bottom: 1px solid #e5e5ee;
@@ -567,7 +576,7 @@ ul.tablist li.tabs a.active {
 }
 
 .userComentsInfo .InnerList {
-    width: 330px;
+    width: 340px;
     float: left;
 }
 
@@ -600,8 +609,8 @@ li.userComent .UserProfileImg {
 .pplLike {
     display: block;
     float: right;
-    background: url(../images/fbLikeIcon.png) no-repeat;
-    padding: 0 5px 0 20px;
+    background: url(../images/fbLikeIcon.png) no-repeat left center;
+    padding: 0 5px 0 15px;
 }
 
 .fbPost {
@@ -720,6 +729,7 @@ ul.schoolList li .schoolName {
     background: -webkit-linear-gradient(bottom, #f9f9fc 0%, #f9f9fc 100%);
     background: -ms-linear-gradient(bottom, #f9f9fc 0%, #f9f9fc 100%);
     background: linear-gradient(to bottom, #f9f9fc 0%, #f9f9fc 100%);
+    text-shadow:1px 1px 0 #ffffff;
 }
 
 ul.footerMenu, ul.footerMenu li, .copyright ul.footerSubMenu, ul.footerSubMenu li, .copyrightYear {
@@ -769,4 +779,8 @@ ul li.clear {
     float: none;
     clear: both;
     border: none;
+}
+
+a:hover, .searchInfo a:hover, .registerLoginBtn a:hover, ul.verticalMenu li a:hover, ul.tabList li.tabs a:hover, .factsFiguresWrap ul li a:hover, ul.footerMenu li a:hover, ul.footerSubMenu li a:hover {
+    color: #333333;
 }

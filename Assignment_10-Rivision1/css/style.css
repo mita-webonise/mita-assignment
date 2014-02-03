@@ -211,11 +211,19 @@ ul.socialBtn li a {
 }
 
 ul.socialBtn li a.twIcon {
-    background: url(../images/twIcon.png) no-repeat;
+    background: url(../images/twIcon.png) no-repeat left top;
 }
 
+/*ul.socialBtn li a:hover.twIcon {
+    background: url(../images/twIcon.png) no-repeat left -21px;
+}*/
+
 ul.socialBtn li a.fbIcon {
-    background: url(../images/fbIcon.png) no-repeat;
+    background: url(../images/fbIcon.png) no-repeat left top;
+}
+
+ul.socialBtn li a:hover.twIcon, ul.socialBtn li a:hover.fbIcon {
+    opacity: 0.7;
 }
 
 /**************************Header Ends*********************************/
@@ -224,7 +232,7 @@ ul.socialBtn li a.fbIcon {
     width: 209px;
     float: left;
     border-right: 1px solid #e5e5ee;
-    margin:0 20px 20px 0;
+    margin:0 0 20px 0;
 }
 
 .profileInfo {
@@ -242,6 +250,11 @@ ul.socialBtn li a.fbIcon {
 .ProfileImgWrap img {
     max-width: 189px;
     max-height: 178px;
+}
+
+.userInfoWrap {
+    padding-right: 10px;
+    margin-bottom: 8px;
 }
 
 .profileName {
@@ -312,7 +325,7 @@ ul.socialBtn li a.fbIcon {
 }
 
 ul.verticalMenu {
-    margin: 8px 0 20px;
+    margin: 0 0 20px;
 }
 
 ul.verticalMenu li {    
@@ -459,11 +472,6 @@ ul.verticalMenu li span {
     color: #959595;
 }
 
-/*ul.packegeList li span {
-    display: block;
-    float: left;
-}*/
-
 ul.packegeList li ul li.innerList {
     font-weight: normal;
     border-bottom: none;
@@ -513,7 +521,7 @@ ul.packegeList li ul li.innerList .figures{
 /**************************leftCol Ends*********************************/
 
 .contentCol {
-    width: 760px;
+    width: 780px;
     float: right;    
 }
 
@@ -524,7 +532,21 @@ ul.packegeList li ul li.innerList .figures{
 .contentCol .userContent {
     width: 460px;
     float: left;
-    margin-right: 20px;
+    margin: 0 0 0 -1px;
+    padding:0 20px;
+    border-right: 1px solid #e5e5ee;
+    border-left: 1px solid #e5e5ee;
+}
+
+.userChatInfo {
+    margin-bottom: 20px;
+}
+
+.userChatInfo p {
+    margin-right: 10px;
+    /*word-break:break-all;*/
+    overflow: hidden;
+    text-align: justify;
 }
 
 ul.tabList {
@@ -540,9 +562,9 @@ ul.tabList li {
 }
 
 ul.tabList li a {
+    display: block;
     margin-top: 3px;
-    padding: 5px 8px 4px;
-    line-height: 25px;
+    padding: 4px 8px 4px;
     text-align: center;
     color: #2255aa;
 }
@@ -550,7 +572,7 @@ ul.tabList li a {
 ul.tabList li a.active {
     /*border-bottom: 1px solid #ffffff;*/
     color: #000000;
-    line-height: 26px;
+    padding: 5px 8px 4px;
 }
 
 .userContent ul.userComentsList {
@@ -594,6 +616,11 @@ ul.tabList li a.active {
 .userComentsInfo .InnerList {
     width: 355px;
     float: left;
+}
+
+.userComentsInfo .InnerList .username {
+    display: block;
+    margin-bottom: 8px;
 }
 
 .userComentsInfo span {
@@ -642,6 +669,7 @@ li.userComent .UserProfileImg {
 .contentCol .rightCol {
     width: 260px;
     float: left;
+    margin-left: -1px;
     padding: 0 0 0 18px;
     border-left: 1px solid #e5e5ee;
 }
@@ -662,6 +690,10 @@ ul.schoolList li {
     margin-bottom: 10px;
 }
 
+ul.schoolList li:hover {
+    background: #f5f5f5;
+}
+
 ul.schoolList li .schoolLogoImg {
     width: 34px;
     height: 34px;
@@ -679,6 +711,12 @@ ul.schoolList li .schoolName {
     width: 215px;
     float: left;
     line-height: 18px;
+}
+
+ul.schoolList li .schoolName a{
+    display: block;
+    height: 34px;
+    overflow: hidden;
 }
 
 .Apply {

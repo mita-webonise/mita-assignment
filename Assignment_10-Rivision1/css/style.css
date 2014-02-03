@@ -538,15 +538,13 @@ ul.tabList li {
 
 ul.tabList li a {
     display: block;
-    margin-top: 3px;
-    padding: 4px 8px 4px;
+    padding: 6px 8px 5px;
     text-align: center;
-    color: #2255aa;
 }
 
 ul.tabList li a.active {
     color: #000000;
-    padding: 5px 8px 4px;
+    padding: 7px 8px 5px;
 }
 
 .userContent ul.userComentsList {

@@ -1,0 +1,379 @@
+
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('../fonts/ubuntu-r-webfont.eot');
+    src: url('../fonts/ubuntu-r-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-r-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-r-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntu-r-webfont.svg#ubunturegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('../fonts/ubuntu-b-webfont.eot');
+    src: url('../fonts/ubuntu-b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-b-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-b-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntu-b-webfont.svg#ubuntubold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('../fonts/ubuntu-l-webfont.eot');
+    src: url('../fonts/ubuntu-l-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-l-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-l-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntu-l-webfont.svg#ubuntulight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ubuntumedium';
+    src: url('../fonts/ubuntu-m-webfont.eot');
+    src: url('../fonts/ubuntu-m-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-m-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-m-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntu-m-webfont.svg#ubuntumedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background: url(../img/body-bg.jpg) repeat;
+}
+
+.header {
+	height: 49px;
+	background: url(../img/headerBg.jpg) repeat-x;
+	border-bottom: 1px solid #000000;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+	position: relative;
+	z-index: 100;
+}
+
+.logo {
+	width: 113px;
+	height: 34px;
+	display: block;
+	float: left;
+	margin-top: 7px;
+	background: url(../img/logo.png) no-repeat;
+	text-indent: -5000px;
+}
+
+.btn-signin, .btn-getStarted {
+	padding:5px 14px;
+	font-size: 13px;
+	color: #ffffff;
+	border: 2px solid rgba(0, 0, 0, 0.9);
+	border-radius:15px;
+	box-shadow: inset 0 2px 1px rgba(255, 255, 255, 0.4);
+	text-shadow:0 -1px 0px rgba(0, 0, 0, 0.5);
+}
+
+.btn-signin:hover, .btn-getStarted:hover {
+	color: #ffffff;
+}
+
+.btn-signin{	
+	margin:8px 16px 0 0;
+	background: #33aaee;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#81cbf5), to(#33aaee));
+	background: -webkit-linear-gradient(top, #81cbf5, #33aaee);
+	background: -moz-linear-gradient(top, #81cbf5, #33aaee);
+}
+
+.btn-signin:active{	
+	background: #33aaee;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#33aaee), to(#81cbf5));
+	background: -webkit-linear-gradient(top, #33aaee, #81cbf5);
+	background: -moz-linear-gradient(top, #33aaee, #81cbf5);
+}
+
+.btn-getStarted {
+	margin:8px 0 0 0;
+	background: #dd8800;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#e7ab4a), to(#dd8800));
+	background: -webkit-linear-gradient(top, #e7ab4a, #dd8800);
+	background: -moz-linear-gradient(top, #e7ab4a, #dd8800);
+}
+
+.btn-getStarted:active {
+	background: #dd8800;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#dd8800), to(#e7ab4a));
+	background: -webkit-linear-gradient(top, #dd8800, #e7ab4a);
+	background: -moz-linear-gradient(top, #dd8800, #e7ab4a);
+}
+
+.banner {
+	padding: 47px 0 30px 0;
+	margin-bottom: 30px;
+	background: url(../img/bannerBg.jpg) repeat;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
+	text-align: center;
+}
+
+h1 {	
+	font-family: 'ubuntubold';
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 40px;
+	color: #ffffff;
+	text-shadow:1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+	font-family: 'ubuntumedium';
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 38px;
+	color: #444444;
+}
+
+.banner .bannerBg {
+	height: 290px;
+	background: url(../img/bannerVisualCopy.png) no-repeat;
+	margin-bottom: 10px;
+}
+
+.banner p {
+	font-family: "ubuntulight", helvetica, arial;
+	font-size: 24px;
+	line-height: 26px;
+	color: #ffffff;
+	margin-bottom: 45px;
+	text-shadow:1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.banner p span {
+	font-family: "ubuntumedium", helvetica, arial;
+}
+
+.banner .bannerGetStartedWrap{
+	height: 65px;
+	background: url(../img/signUpBgBorder.png) repeat-x left 31px;
+}
+
+.banner .bannerGetStartedWrap .btn-getStarted{
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-family: helvetica, arial;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 26px;
+	padding: 18px 0;
+	border: 2px solid #0976b5;
+	border-radius: 40px;
+	box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.9), 0px 2px 6px rgba(0, 0, 0, 0.2);
+	text-shadow: 1px -1px 0px rgba(0, 0, 0, 0.2);
+	float: none;
+}
+
+.Idea-FormWrap {
+	margin-bottom: 37px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #cfcfcf;
+}
+
+h2.Ideacontent {
+	margin: 40px 0 30px 0;
+}
+
+.para{
+	/*width: 515px;*/
+	font-size: 18px;
+	line-height: 22px;
+	margin:0 25px 36px 0;
+}
+
+.paraBold{
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: bold;
+}
+
+.para, .paraBold{
+	font-family: arial;
+	color: #444444;
+}
+
+h2.Ideacontent, .para, .paraBold{
+	text-shadow:1px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.FbForm {
+	margin: 0;
+	padding: 20px;
+	border-radius: 6px;
+	background: #ffffff;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
+}
+
+.FbForm input {
+	width:245px;
+}
+
+.FbForm h3 {
+	border-bottom: none;
+}
+
+.FbForm h3, .FbForm .free{
+	font-family: 'ubuntulight';
+	font-size: 22px;
+	line-height: 22px;
+	margin-bottom: 15px;
+	font-weight: normal;
+}
+
+.FbForm .free{
+	font-family: 'ubuntumedium';
+}
+
+.FbForm .facebookBtn{
+	width: 260px;
+	height: 37px;
+	display: block;
+	margin-bottom: 16px;
+	background: url(../img/facebookBtn.png) no-repeat center center;
+	text-indent: -5000px;
+}
+
+.FbForm .help-block {
+	line-height: 18px;
+	font-family: arial;
+	font-size: 13px;
+	color: #888888;
+}
+
+.FbForm .help-block .terms {
+	color: #333333;
+}
+
+.orTextWrap{
+	width: 260px;
+	height: 1px;
+	border-bottom: 1px solid #e6e6e6;
+	margin:24px 0;
+	position: relative;
+}
+
+.orText{
+	width: 35px;
+	height: 29px;
+	font-family: 'ubuntumedium';
+	font-size: 13px;
+	line-height: 29px;
+	text-align: center;
+	position: absolute;
+	left: 111px;
+	top: -12px;
+	background: #ffffff;
+}
+
+.signUpBtn{
+	background: url(../img/signUpBg.png) repeat-x;
+	border: 1px solid #222222;
+	box-shadow: inset 0px 2px 1px rgba(255, 255, 255, 0.3);
+	color: #ffffff;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 26px;
+	cursor:pointer;
+}
+
+.signUpBtn:hover,  .signUpBtn:focus{
+	background: url(../img/signUpBg-hover.png);
+}
+
+.ShareistFaqs{
+	border-bottom: 1px solid #cfcfcf;
+	margin: 0 auto;
+	margin-bottom:45px;
+	padding-bottom: 30px;
+	text-shadow:1px 1px 1px rgba(255, 255, 255, 0.9);
+}
+
+.ShareistFaqs h2{
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.ShareistFaqs .icon{
+	margin-left: 9px;
+	width: 52px;
+	height: 52px;
+	background-position: center center; 
+}
+
+.ShareistFaqs .writer{
+	background: url(../img/img1writer.png) no-repeat;
+}
+
+.ShareistFaqs .Blogger{
+	background: url(../img/img2Blogger.png) no-repeat;
+}
+
+.ShareistFaqs .Teacher{
+	background: url(../img/img3Teacher.png) no-repeat;
+}
+
+.ShareistFaqs .MOM{
+	background: url(../img/img4MOM.png) no-repeat;
+}
+
+.ShareistFaqs .Expert{
+	background: url(../img/img5Expert.png) no-repeat;
+}
+
+.ShareistFaqs .Affiliate{
+	background: url(../img/img6Affiliate.png) no-repeat;
+}
+
+.ShareistFaqs .faqsQ{
+	font-family:arial, helvetica;
+	font-size: 24px;
+	line-height: 24px;
+	margin-bottom: 10px;
+	padding-top: 8px;
+}
+
+.ShareistFaqs .faqsAns{
+	font-family: arial, helvetica;
+	font-size: 13px;
+	line-height: 18px;
+	color: #666666;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+.footer{
+	width: 130px;
+	height: 50px;
+	margin: 0 auto;
+	background: url(../img/footerBg.png) repeat-x;
+	border-radius: 6px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+
+
+
